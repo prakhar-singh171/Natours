@@ -9,14 +9,23 @@ const sendEmail = require('./../utils/email');
 
 
 
-exports.signup = catchAsync(async (req, res, next) => {
-  const newUser = await User.create({
-    name: req.body.name,
-    email: req.body.email,
-    password: req.body.password,
-    passwordConfirm: req.body.passwordConfirm
+
+  exports.signup = catchAsync(async (req, res, next) => {
+    const newUser = await User.create({
+      name: req.body.name,
+      email: req.body.email,
+      password: req.body.password,
+      passwordConfirm: req.body.passwordConfirm
+    });
+  
+   const token=jwt.sign({id:newUser._id},process.env.JWT_SECRET,{
+    expiresIn:process.env.JWT_EXPIRES_IN
+   });
+
+   res.status(201).json({
+    status:'success',
+    data:{
+        user:newUser
+    }
+   })
   });
-
-  createSendToken(newUser, 201, res);
-});
-

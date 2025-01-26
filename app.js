@@ -8,7 +8,7 @@ const hpp = require('hpp');
 const path=require('path')
 const cors=require('cors')
 const viewRouter = require('./routes/viewRoutes');
-
+const cookieParser=require('cookie-parser')
 const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorController');
 const tourRouter = require('./routes/tourRoutes');
@@ -24,6 +24,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // 1) GLOBAL MIDDLEWARES
 // Set security HTTP headers
+app.use(cookieParser())
 app.use(
   cors({
     origin: 'http://localhost:3000',
@@ -83,7 +84,7 @@ app.use(express.static(`${__dirname}/public`));
 // Test middleware
 app.use((req, res, next) => {
   req.requestTime = new Date().toISOString();
-  // console.log(req.headers);
+   console.log(req.cookies);
   next();
 });
 

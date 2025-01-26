@@ -27,7 +27,7 @@
 90C:\Users\prakk\Desktop\Project\Natours\node_modules\iconv-lite\encodings\tables\cp950.json133823495680660138 0
 71C:\Users\prakk\Desktop\Project\Natours\node_modules\with\lib\globals.js133823447533770688 0
 65C:\Users\prakk\Desktop\Project\Natours\node_modules\etag\index.js133823495625745159 0
-45C:\Users\prakk\Desktop\Project\Natours\app.js133823444550914191 0
+45C:\Users\prakk\Desktop\Project\Natours\app.js133823512316313057 0
 60C:\Users\prakk\Desktop\Project\Natours\node_modules\minimist133823495713496358 1
 84C:\Users\prakk\Desktop\Project\Natours\node_modules\@swc\helpers\_\_write_only_error133823495893178765 1
 90C:\Users\prakk\Desktop\Project\Natours\node_modules\color\node_modules\color-name\index.js133823495614061938 0
@@ -49,12 +49,12 @@
 84C:\Users\prakk\Desktop\Project\Natours\node_modules\mongoose\lib\plugins\sharding.js133815241029879105 0
 108C:\Users\prakk\Desktop\Project\Natours\node_modules\@swc\helpers\cjs\_class_apply_descriptor_destructure.cjs133823495678705908 0
 88C:\Users\prakk\Desktop\Project\Natours\node_modules\validator\es\lib\isISO31661Alpha3.js133821097096337866 0
-61C:\Users\prakk\Desktop\Project\Natours\routes\reviewRoutes.js133822711598406190 0
+61C:\Users\prakk\Desktop\Project\Natours\routes\reviewRoutes.js133823512114517781 0
 72C:\Users\prakk\Desktop\Project\Natours\public\img\tours\tour-6-cover.jpg133812257936013338 0
 84C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\lib\operations\insert.js133815241000147641 0
 115C:\Users\prakk\Desktop\Project\Natours\node_modules\concat-stream\node_modules\string_decoder\lib\string_decoder.js133823495634267638 0
 100C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\browser_field\package.json133823447579583886 0
-50C:\Users\prakk\Desktop\Project\Natours\controllers133823446186526337 1
+50C:\Users\prakk\Desktop\Project\Natours\controllers133823513709048135 1
 90C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\lib\cmap\stream_description.js133815241002642896 0
 96C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\array\virtual\for-each.js133823495995862047 0
 114C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml\node_modules\dom-serializer\node_modules\entities\lib133823495692548212 1
@@ -89,7 +89,7 @@
 70C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\bower.json133823496059374288 0
 55C:\Users\prakk\Desktop\Project\Natours\node_modules\jwa133821097346920568 1
 83C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\esm\ResourceNamespace.js133823495842876029 0
-59C:\Users\prakk\Desktop\Project\Natours\routes\userRoutes.js133822711855475057 0
+59C:\Users\prakk\Desktop\Project\Natours\routes\userRoutes.js133823511916445948 0
 86C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\es7.promise.try.js133823495983232067 0
 105C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml\node_modules\domelementtype\lib\esm\index.js133823495616277170 0
 56C:\Users\prakk\Desktop\Project\Natours\package-lock.json133823496166332788 0
@@ -100,7 +100,7 @@
 85C:\Users\prakk\Desktop\Project\Natours\node_modules\weak-lru-cache\tests\benchmark.js133823495615997176 0
 86C:\Users\prakk\Desktop\Project\Natours\node_modules\pug-error\lib\tsconfig.tsbuildinfo133823447538726967 0
 85C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\lib\operations\indexes.js133815241000101175 0
-51C:\Users\prakk\Desktop\Project\Natours\package.json133823496510259325 0
+51C:\Users\prakk\Desktop\Project\Natours\package.json133823496868997823 0
 71C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\watcher\src133823495735799026 1
 79C:\Users\prakk\Desktop\Project\Natours\node_modules\validator\es\lib\isOctal.js133821097097457384 0
 86C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\es6.math.fround.js133823495932774486 0
@@ -111,7 +111,7 @@
 91C:\Users\prakk\Desktop\Project\Natours\node_modules\readable-stream\lib\_stream_writable.js133823495640253315 0
 45C:\Users\prakk\Desktop\Project\Natours\public133823487462699677 1
 70C:\Users\prakk\Desktop\Project\Natours\node_modules\cookie\SECURITY.md133823495633010519 0
-84C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\module_dir\zmodules133823447562490438 1
+84C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\module_dir\zmodules133823447562540479 1
 99C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml\node_modules\domhandler\lib\index.d.ts133823495646151164 0
 72C:\Users\prakk\Desktop\Project\Natours\node_modules\forwarded\HISTORY.md133823495625735208 0
 101C:\Users\prakk\Desktop\Project\Natours\node_modules\mongoose\lib\helpers\indexes\getRelatedIndexes.js133815241003119878 0
@@ -127,13 +127,13 @@
 60C:\Users\prakk\Desktop\Project\Natours\node_modules\he\he.js133823495619930028 0
 99C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\Treasury\TransactionsResource.d.ts133823495966461924 0
 105C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml-parser\node_modules\domutils\lib\querying.js133823495729850339 0
-85C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\number\virtual133823496048869250 1
+85C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\number\virtual133823496049539260 1
 68C:\Users\prakk\Desktop\Project\Natours\node_modules\@babel\highlight133815223238994646 1
 117C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\package-manager\node_modules\semver\internal\constants.js133823495657339869 0
 96C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\runtime-js\lib\helpers\bundle-url.js133823495677438312 0
 93C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\features\import-maps.js133823495902294894 0
 45C:\Users\prakk\Desktop\Project\Natours\routes133823438734879184 1
-48C:\Users\prakk\Desktop\Project\Natours\server.js133823444697814169 0
+48C:\Users\prakk\Desktop\Project\Natours\server.js133823513916172822 0
 82C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\es6\promise.js133823496031593669 0
 88C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\es6.number.is-nan.js133823495943334430 0
 84C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\esm\resources\TaxRates.js133823495865331563 0
@@ -178,7 +178,7 @@
 67C:\Users\prakk\Desktop\Project\Natours\public\img\users\default.jpg133812257940233515 0
 88C:\Users\prakk\Desktop\Project\Natours\node_modules\xss-filters\tests\fuzz\bin\fuzzer.js133821096860320212 0
 88C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\error\is-error.js133823496010810991 0
-59C:\Users\prakk\Desktop\Project\Natours\public\js\leaflet.js133792512690613178 0
+59C:\Users\prakk\Desktop\Project\Natours\public\js\leaflet.js133823501112635524 0
 77C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash.isboolean\index.js133821097346960574 0
 81C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\_is-object.js133823495783316540 0
 63C:\Users\prakk\Desktop\Project\Natours\node_modules\xss-filters133821096859920324 1
@@ -193,7 +193,7 @@
 82C:\Users\prakk\Desktop\Project\Natours\node_modules\whatwg-url\lib\VoidFunction.js133815240985534547 0
 67C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\unzip.js133821096974933179 0
 70C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\LICENSE.md133815241031662957 0
-57C:\Users\prakk\Desktop\Project\Natours\public\js\login.js133789095464684007 0
+57C:\Users\prakk\Desktop\Project\Natours\public\js\login.js133823512857114226 0
 99C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\array\virtual\copy-within.js133823495891832529 0
 97C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-svg\lib\SVGTransformer.js133823495677914333 0
 86C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\features\zstd.js133823495991795816 0
@@ -226,7 +226,7 @@
 72C:\Users\prakk\Desktop\Project\Natours\node_modules\msgpackr\SECURITY.md133823495754618359 0
 61C:\Users\prakk\Desktop\Project\Natours\node_modules\ipaddr.js133823495630509261 1
 80C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml-parser\package.json133823495632387263 0
-66C:\Users\prakk\Desktop\Project\Natours\public\js\updateSettings.js133789818784425946 0
+66C:\Users\prakk\Desktop\Project\Natours\public\js\updateSettings.js133823512752146785 0
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\_countHolders.js133821096957310670 0
 80C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\number\epsilon.js133823495910719440 0
 57C:\Users\prakk\Desktop\Project\Natours\node_modules\color133823495621023293 1
@@ -261,9 +261,9 @@
 84C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\utils\node_modules\chalk133823495641107757 1
 67C:\Users\prakk\Desktop\Project\Natours\node_modules\destroy\LICENSE133823495608986627 0
 76C:\Users\prakk\Desktop\Project\Natours\node_modules\@swc\helpers\_\_ts_param133823495890716837 1
-59C:\Users\prakk\Desktop\Project\Natours\routes\tourRoutes.js133822711695232095 0
+59C:\Users\prakk\Desktop\Project\Natours\routes\tourRoutes.js133823512003836718 0
 77C:\Users\prakk\Desktop\Project\Natours\node_modules\is-arrayish\.istanbul.yml133815223247796165 0
-59C:\Users\prakk\Desktop\Project\Natours\routes\viewRoutes.js133823477951490288 0
+59C:\Users\prakk\Desktop\Project\Natours\routes\viewRoutes.js133823511824897731 0
 69C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\toLower.js133821096974161457 0
 59C:\Users\prakk\Desktop\Project\Natours\public\css\style.css133823468389759236 0
 80C:\Users\prakk\Desktop\Project\Natours\node_modules\postcss-value-parser\LICENSE133823495608728223 0
@@ -314,13 +314,13 @@
 99C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\esm\resources\Treasury\DebitReversals.js133823495760121566 0
 70C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\defaults.js133821096963567964 0
 114C:\Users\prakk\Desktop\Project\Natours\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\010-introduction.md133823495753830343 0
-48C:\Users\prakk\Desktop\Project\Natours\public\js133789818698998720 1
+48C:\Users\prakk\Desktop\Project\Natours\public\js133823510797815370 1
 95C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\workers\lib\threads\ThreadsChild.js133823495738395279 0
 55C:\Users\prakk\Desktop\Project\Natours\public\tour.html133812257924341453 0
 64C:\Users\prakk\Desktop\Project\Natours\public\img\logo-white.png133812257927006147 0
 98C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\cjs\resources\V2\Billing\MeterEvents.js133823495794789088 0
 98C:\Users\prakk\Desktop\Project\Natours\node_modules\@swc\helpers\_\_iterable_to_array\package.json133823495874184084 0
-58C:\Users\prakk\Desktop\Project\Natours\public\js\alerts.js133789089921042003 0
+58C:\Users\prakk\Desktop\Project\Natours\public\js\alerts.js133823512605576190 0
 94C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\cjs\resources\ConfirmationTokens.js133823495750759433 0
 93C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\cjs\resources\SubscriptionItems.js133823495861831532 0
 96C:\Users\prakk\Desktop\Project\Natours\node_modules\sharp\node_modules\semver\functions\rsort.js133823495736735252 0
@@ -346,7 +346,7 @@
 101C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\modules\es6.number.parse-float.js133823495944108056 0
 113C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-svg\node_modules\semver\functions\sort.js133823495741428510 0
 70C:\Users\prakk\Desktop\Project\Natours\node_modules\dotenv\lib\main.js133823495633020534 0
-57C:\Users\prakk\Desktop\Project\Natours\public\js\index.js133790824469683256 0
+57C:\Users\prakk\Desktop\Project\Natours\public\js\index.js133823513213615041 0
 77C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\sortedLastIndex.js133821096972659845 0
 103C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\features\dom-manip-convenience.js133823495870382858 0
 65C:\Users\prakk\Desktop\Project\Natours\public\js\bundled\index.js133823496503918071 0
@@ -389,7 +389,7 @@
 72C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\_ListCache.js133821096961060677 0
 79C:\Users\prakk\Desktop\Project\Natours\node_modules\validator\es\lib\isAfter.js133821097094490776 0
 55C:\Users\prakk\Desktop\Project\Natours\public\img\users133812257945545303 1
-72C:\Users\prakk\Desktop\Project\Natours\node_modules\ordered-binary\.idea133823495618527649 1
+72C:\Users\prakk\Desktop\Project\Natours\node_modules\ordered-binary\.idea133823495674382914 1
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\sharp\src\operations.cc133823495632314355 0
 85C:\Users\prakk\Desktop\Project\Natours\node_modules\@swc\helpers\esm\_ts_generator.js133823495826044980 0
 110C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml-parser\node_modules\domhandler\lib\esm\index.d.ts133823495673069464 0
@@ -555,7 +555,7 @@
 95C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\core.get-iterator-method.js133823495893026311 0
 99C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\core\node_modules\semver\internal\re.js133823495735609076 0
 68C:\Users\prakk\Desktop\Project\Natours\public\img\tours\tour-2-3.jpg133812257929361258 0
-60C:\Users\prakk\Desktop\Project\Natours\node_modules\domutils133823495633360596 1
+60C:\Users\prakk\Desktop\Project\Natours\node_modules\domutils133823495661163322 1
 72C:\Users\prakk\Desktop\Project\Natours\public\img\tours\tour-2-cover.jpg133812257929671484 0
 81C:\Users\prakk\Desktop\Project\Natours\node_modules\validator\es\lib\isDataURI.js133821097094846772 0
 68C:\Users\prakk\Desktop\Project\Natours\public\img\tours\tour-3-1.jpg133812257929906978 0
@@ -605,7 +605,7 @@
 98C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\Identity\VerificationReports.d.ts133823495972404222 0
 95C:\Users\prakk\Desktop\Project\Natours\node_modules\@babel\types\lib\converters\toIdentifier.js133823447571637161 0
 114C:\Users\prakk\Desktop\Project\Natours\node_modules\mongoose\lib\helpers\aggregate\prepareDiscriminatorPipeline.js133815241021755163 0
-66C:\Users\prakk\Desktop\Project\Natours\node_modules\multer\storage133823495618437619 1
+66C:\Users\prakk\Desktop\Project\Natours\node_modules\multer\storage133823495641237808 1
 70C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\isMap.js133821096967474890 0
 68C:\Users\prakk\Desktop\Project\Natours\node_modules\xtend\mutable.js133823495631148437 0
 76C:\Users\prakk\Desktop\Project\Natours\node_modules\cosmiconfig\dist\util.js133823495687784911 0
@@ -624,7 +624,7 @@
 96C:\Users\prakk\Desktop\Project\Natours\node_modules\@mongodb-js\saslprep\dist\code-points-src.js133815240985188189 0
 58C:\Users\prakk\Desktop\Project\Natours\node_modules\kareem133815240984617067 1
 74C:\Users\prakk\Desktop\Project\Natours\node_modules\string_decoder\LICENSE133823495608691042 0
-88C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\other_path\lib133823447566639304 1
+88C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\other_path\lib133823447566729330 1
 72C:\Users\prakk\Desktop\Project\Natours\node_modules\htmlnano\lib\modules133823495784061735 1
 106C:\Users\prakk\Desktop\Project\Natours\node_modules\react-refresh\cjs\react-refresh-runtime.development.js133823495635572159 0
 72C:\Users\prakk\Desktop\Project\Natours\public\img\tours\tour-4-cover.jpg133812257932307501 0
@@ -797,7 +797,7 @@
 99C:\Users\prakk\Desktop\Project\Natours\node_modules\@babel\types\lib\converters\toIdentifier.js.map133823447572622847 0
 69C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\lang.js133821096968716477 0
 90C:\Users\prakk\Desktop\Project\Natours\node_modules\mongoose\lib\options\virtualOptions.js133815241032806501 0
-59C:\Users\prakk\Desktop\Project\Natours\node_modules\@emnapi133823495577363643 1
+59C:\Users\prakk\Desktop\Project\Natours\node_modules\@emnapi133823496147425929 1
 85C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\core\lib\public\Config.js133823495758697777 0
 96C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\features\input-datetime.js133823495905999808 0
 105C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml-parser\node_modules\htmlparser2\lib\index.js133823495712081516 0
@@ -806,7 +806,7 @@
 71C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\cjs\utils.js133823495871252782 0
 81C:\Users\prakk\Desktop\Project\Natours\node_modules\type-fest\source\entries.d.ts133823495669099712 0
 88C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\lib\operations\insert.js.map133815241019322277 0
-56C:\Users\prakk\Desktop\Project\Natours\node_modules\@img133823495576940471 1
+56C:\Users\prakk\Desktop\Project\Natours\node_modules\@img133823496114874267 1
 110C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\package-manager\test\fixtures\has-foo\package.json133823495752006578 0
 79C:\Users\prakk\Desktop\Project\Natours\node_modules\undici-types\websocket.d.ts133823495736355204 0
 98C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\features\css-supports-api.js133823495845275138 0
@@ -1046,7 +1046,7 @@
 73C:\Users\prakk\Desktop\Project\Natours\node_modules\raw-body\package.json133823495617790245 0
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\asynckit\lib\iterate.js133823495663667149 0
 97C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\modules\es7.object.entries.js133823495981953004 0
-58C:\Users\prakk\Desktop\Project\Natours\node_modules\cookie133823495621923217 1
+58C:\Users\prakk\Desktop\Project\Natours\node_modules\cookie133823495631762603 1
 68C:\Users\prakk\Desktop\Project\Natours\node_modules\msgpackr-extract133823495640324404 1
 65C:\Users\prakk\Desktop\Project\Natours\node_modules\cookie-parser133823495630469245 1
 66C:\Users\prakk\Desktop\Project\Natours\node_modules\type-fest\ts41133823495732457229 1
@@ -1100,7 +1100,7 @@
 93C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\modules\es7.math.iaddh.js133823495980182945 0
 64C:\Users\prakk\Desktop\Project\Natours\node_modules\with\LICENSE133823447531099047 0
 101C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\modules\es6.regexp.constructor.js133823495954012076 0
-77C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\string\virtual133823496053240678 1
+77C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\string\virtual133823496055054305 1
 77C:\Users\prakk\Desktop\Project\Natours\node_modules\append-field\package.json133823495608750106 0
 92C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\src\cmap\wire_protocol\shared.ts133815241046409232 0
 68C:\Users\prakk\Desktop\Project\Natours\node_modules\asynckit\LICENSE133823495617570040 0
@@ -1261,7 +1261,7 @@
 61C:\Users\prakk\Desktop\Project\Natours\node_modules\get-proto133823495672796036 1
 102C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\V2\Billing\MeterEventAdjustments.d.ts133823495927953102 0
 83C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\_an-instance.js133823495683706418 0
-77C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\number\virtual133823496048769259 1
+77C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\number\virtual133823496049279264 1
 97C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\BalanceTransactionsResource.d.ts133823495892524501 0
 89C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\BalanceTransactions.d.ts133823495892273015 0
 89C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\features\pointer.js133823495951789208 0
@@ -1392,7 +1392,7 @@
 89C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\modules\es6.symbol.js133823495973109755 0
 72C:\Users\prakk\Desktop\Project\Natours\node_modules\sift\MIT-LICENSE.txt133815240991302016 0
 103C:\Users\prakk\Desktop\Project\Natours\node_modules\readable-stream\lib\internal\streams\buffer_list.js133823495650792906 0
-69C:\Users\prakk\Desktop\Project\Natours\node_modules\token-stream\test133823447538361014 1
+69C:\Users\prakk\Desktop\Project\Natours\node_modules\token-stream\test133823447538938839 1
 84C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\Billing\Meters.d.ts133823495930427797 0
 68C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\README.md133821096975651140 0
 73C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\lib\cmap\auth133815241031531171 1
@@ -1496,7 +1496,7 @@
 109C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\symlinked\_\symlink_target\.gitkeep133823447534709483 0
 70C:\Users\prakk\Desktop\Project\Natours\node_modules\ieee754\index.d.ts133823495631178486 0
 74C:\Users\prakk\Desktop\Project\Natours\node_modules\util-deprecate\LICENSE133823495617415745 0
-64C:\Users\prakk\Desktop\Project\Natours\node_modules\with\.github133823447549376851 1
+64C:\Users\prakk\Desktop\Project\Natours\node_modules\with\.github133823447549490689 1
 67C:\Users\prakk\Desktop\Project\Natours\node_modules\math-intrinsics133823495732077156 1
 69C:\Users\prakk\Desktop\Project\Natours\node_modules\mime\src\build.js133823495644879524 0
 69C:\Users\prakk\Desktop\Project\Natours\node_modules\lmdb\package.json133823495798159274 0
@@ -1507,7 +1507,7 @@
 59C:\Users\prakk\Desktop\Project\Natours\node_modules\methods133815223148156968 1
 104C:\Users\prakk\Desktop\Project\Natours\node_modules\dom-serializer\node_modules\entities\lib\encode.d.ts133823495686195898 0
 90C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\core\test\PublicBundle.test.js133823495803127707 0
-76C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\node_path\x133823447559024268 1
+76C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\node_path\x133823447559137007 1
 62C:\Users\prakk\Desktop\Project\Natours\node_modules\micromatch133823495622388730 1
 119C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-svg\node_modules\semver\functions\prerelease.js133823495732307161 0
 92C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\PaymentMethodsResource.d.ts133823495942778335 0
@@ -1649,7 +1649,7 @@
 66C:\Users\prakk\Desktop\Project\Natours\node_modules\path-to-regexp133823495621673161 1
 62C:\Users\prakk\Desktop\Project\Natours\node_modules\picocolors133823495637469414 1
 98C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\utils\node_modules\ansi-styles\license133823495609181984 0
-89C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\without_basedir133823447564304494 1
+89C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\without_basedir133823447564340342 1
 95C:\Users\prakk\Desktop\Project\Natours\node_modules\@swc\helpers\node_modules\tslib\SECURITY.md133823495649960419 0
 82C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\esm\resources\Quotes.js133823495831833342 0
 87C:\Users\prakk\Desktop\Project\Natours\node_modules\leaflet\src\map\handler\Map.Drag.js133823495760341688 0
@@ -1746,7 +1746,7 @@
 63C:\Users\prakk\Desktop\Project\Natours\node_modules\safe-buffer133815223148137035 1
 56C:\Users\prakk\Desktop\Project\Natours\node_modules\send133823495637327263 1
 108C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml-parser\node_modules\domutils\lib\index.d.ts.map133823495746570768 0
-68C:\Users\prakk\Desktop\Project\Natours\node_modules\term-size\vendor133823495622875992 1
+68C:\Users\prakk\Desktop\Project\Natours\node_modules\term-size\vendor133823495641437774 1
 64C:\Users\prakk\Desktop\Project\Natours\node_modules\serve-static133823495631678468 1
 77C:\Users\prakk\Desktop\Project\Natours\node_modules\token-stream\package.json133823447529203218 0
 67C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\union.js133821096974733216 0
@@ -1825,7 +1825,7 @@
 56C:\Users\prakk\Desktop\Project\Natours\node_modules\tr46133815240988742544 1
 92C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\features\websockets.js133823495989872323 0
 88C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\features\hidden.js133823495896879156 0
-61C:\Users\prakk\Desktop\Project\Natours\node_modules\type-fest133823495644329567 1
+61C:\Users\prakk\Desktop\Project\Natours\node_modules\type-fest133823495679838280 1
 64C:\Users\prakk\Desktop\Project\Natours\node_modules\undici-types133823495736045177 1
 114C:\Users\prakk\Desktop\Project\Natours\node_modules\mongoose\lib\helpers\discriminator\mergeDiscriminatorSchema.js133815241011959542 0
 80C:\Users\prakk\Desktop\Project\Natours\node_modules\node-releases\data\processed133823495614528846 1
@@ -1915,7 +1915,7 @@
 76C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\lib\utils.js.map133815241031243371 0
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\undici-types\index.d.ts133823495716793992 0
 95C:\Users\prakk\Desktop\Project\Natours\node_modules\leaflet\src\layer\Layer.Interactive.leafdoc133823495790906267 0
-78C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\quux133823447561300371 1
+78C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\quux133823447561340329 1
 109C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml\node_modules\htmlparser2\lib\WritableStream.d.ts133823495734191324 0
 103C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\Treasury\OutboundPaymentsResource.d.ts133823495932115532 0
 73C:\Users\prakk\Desktop\Project\Natours\node_modules\doctypes\package.json133823447529413207 0
@@ -2050,7 +2050,7 @@
 80C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\array\includes.js133823496001709852 0
 77C:\Users\prakk\Desktop\Project\Natours\node_modules\@swc\helpers\_\_ts_values133823495891006849 1
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\react-error-overlay\lib133823495622875992 1
-60C:\Users\prakk\Desktop\Project\Natours\node_modules\with\src133823447548381524 1
+60C:\Users\prakk\Desktop\Project\Natours\node_modules\with\src133823447549226873 1
 83C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\regions\TC.js133823495976952893 0
 94C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\CustomerSessionsResource.d.ts133823495905245559 0
 71C:\Users\prakk\Desktop\Project\Natours\node_modules\proxy-addr\index.js133823495613935977 0
@@ -2085,7 +2085,7 @@
 81C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\CreditNotes.d.ts133823495902264846 0
 80C:\Users\prakk\Desktop\Project\Natours\node_modules\validator\es\lib\contains.js133821097094339850 0
 73C:\Users\prakk\Desktop\Project\Natours\node_modules\with\lib\reference.js133823447536707076 0
-74C:\Users\prakk\Desktop\Project\Natours\node_modules\with\.github\workflows133823447549872588 1
+74C:\Users\prakk\Desktop\Project\Natours\node_modules\with\.github\workflows133823447550215408 1
 84C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\cjs\resources\TaxRates.js133823495865271547 0
 69C:\Users\prakk\Desktop\Project\Natours\node_modules\parcel\src\bin.js133823495707813964 0
 84C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\events\src\Disposable.js133823495707203928 0
@@ -2196,7 +2196,7 @@
 80C:\Users\prakk\Desktop\Project\Natours\node_modules\@img\sharp-win32-x64\LICENSE133823495608706101 0
 89C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\runtime-js\lib\helpers\worker133823495749837465 1
 83C:\Users\prakk\Desktop\Project\Natours\node_modules\validator\lib\isAlphanumeric.js133821097094556919 0
-88C:\Users\prakk\Desktop\Project\Natours\node_modules\supports-preserve-symlinks-flag\test133823447535360164 1
+88C:\Users\prakk\Desktop\Project\Natours\node_modules\supports-preserve-symlinks-flag\test133823447536400447 1
 106C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\lib\operations\client_bulk_write\common.js.map133815241010213830 0
 97C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\without_basedir\main.js133823447564370648 0
 73C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\isRegExp.js133821096968081962 0
@@ -2317,14 +2317,14 @@
 91C:\Users\prakk\Desktop\Project\Natours\node_modules\mquery\node_modules\debug\src\common.js133815240983878010 0
 78C:\Users\prakk\Desktop\Project\Natours\node_modules\validator\lib\isISO6346.js133821097096458696 0
 78C:\Users\prakk\Desktop\Project\Natours\node_modules\validator\lib\isISO6391.js133821097096488934 0
-73C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver133823447566579307 1
+73C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver133823447580139113 1
 94C:\Users\prakk\Desktop\Project\Natours\node_modules\send\node_modules\on-finished\package.json133823495618335962 0
 68C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\now.js133821096969830019 0
 60C:\Users\prakk\Desktop\Project\Natours\node_modules\sift\lib133815240990508252 1
 89C:\Users\prakk\Desktop\Project\Natours\node_modules\cosmiconfig\node_modules\argparse\lib133823495636123455 1
 86C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\string\virtual\small.js133823496044923134 0
 90C:\Users\prakk\Desktop\Project\Natours\node_modules\mquery\node_modules\debug\src\index.js133815240984110355 0
-68C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\error133823496003450830 1
+68C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\error133823496010731012 1
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\validator\lib\isISRC.js133821097096548774 0
 88C:\Users\prakk\Desktop\Project\Natours\node_modules\msgpackr\dist\unpack-no-eval.cjs.map133823495753232481 0
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\validator\lib\isISSN.js133821097096588779 0
@@ -2336,7 +2336,7 @@
 78C:\Users\prakk\Desktop\Project\Natours\node_modules\validator\lib\isLatLong.js133821097096706059 0
 86C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\lib\cmap\connection.js.map133815241010773732 0
 77C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\optimizer-swc\lib133823495674969557 1
-78C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\promise133823496007454733 1
+78C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\promise133823496053712786 1
 90C:\Users\prakk\Desktop\Project\Natours\node_modules\send\node_modules\on-finished\index.js133823495614474586 0
 90C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\typed\int8-array.js133823496010211000 0
 86C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\CustomerSessions.d.ts133823495904540565 0
@@ -2378,7 +2378,7 @@
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\cjs\resources\V2133823495793539059 1
 72C:\Users\prakk\Desktop\Project\Natours\node_modules\debug\src\browser.js133815223244646164 0
 79C:\Users\prakk\Desktop\Project\Natours\node_modules\validator\es\lib\isAlpha.js133821097094516908 0
-77C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\symbol133823496049849247 1
+77C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\symbol133823496055677818 1
 85C:\Users\prakk\Desktop\Project\Natours\node_modules\validator\lib\isStrongPassword.js133821097097664698 0
 72C:\Users\prakk\Desktop\Project\Natours\node_modules\content-type\LICENSE133823495608996639 0
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\validator\lib\isTime.js133821097098005017 0
@@ -2401,7 +2401,7 @@
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\undici-types\agent.d.ts133823495622277360 0
 74C:\Users\prakk\Desktop\Project\Natours\node_modules\validator\lib\ltrim.js133821097098446374 0
 114C:\Users\prakk\Desktop\Project\Natours\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages133823495721612500 1
-77C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\baz133823447570195279 1
+77C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\baz133823447579333808 1
 70C:\Users\prakk\Desktop\Project\Natours\node_modules\bson\vendor\base64133815241000648666 1
 85C:\Users\prakk\Desktop\Project\Natours\node_modules\math-intrinsics\isNegativeZero.js133823495646707164 0
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\express\lib\response.js133823495663383480 0
@@ -2577,7 +2577,7 @@
 83C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\regions\KE.js133823495913898122 0
 74C:\Users\prakk\Desktop\Project\Natours\node_modules\promise\src\finally.js133823447553131464 0
 81C:\Users\prakk\Desktop\Project\Natours\node_modules\validator\es\lib\isMongoId.js133821097097357362 0
-76C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\node_path\y133823447559388285 1
+76C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\node_path\y133823447559533243 1
 95C:\Users\prakk\Desktop\Project\Natours\node_modules\iconv-lite\encodings\sbcs-data-generated.js133823495658369568 0
 83C:\Users\prakk\Desktop\Project\Natours\node_modules\validator\es\lib\isMultibyte.js133821097097407628 0
 90C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\regexp\to-string.js133823496050279241 0
@@ -2589,7 +2589,7 @@
 101C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\features\css-overflow-anchor.js133823495837612335 0
 97C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml\node_modules\domutils\lib\helpers.js133823495619668180 0
 81C:\Users\prakk\Desktop\Project\Natours\node_modules\validator\es\lib\isNumeric.js133821097097437401 0
-76C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\array133823496056044263 1
+76C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\array133823496056372938 1
 106C:\Users\prakk\Desktop\Project\Natours\node_modules\@swc\helpers\_\_class_private_method_init\package.json133823495855536169 0
 81C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\_iter-call.js133823495784510045 0
 78C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\cjs\resources\Sigma133823495844059398 1
@@ -2639,7 +2639,7 @@
 69C:\Users\prakk\Desktop\Project\Natours\node_modules\react-refresh\cjs133823495637700186 1
 77C:\Users\prakk\Desktop\Project\Natours\node_modules\validator\es\lib\isVAT.js133821097098337578 0
 100C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\src\cursor\list_search_indexes_cursor.ts133815241040037756 0
-85C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\cjs\resources\Entitlements133823495677098259 1
+85C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\cjs\resources\Entitlements133823495776544258 1
 85C:\Users\prakk\Desktop\Project\Natours\node_modules\validator\es\lib\isWhitelisted.js133821097098391423 0
 77C:\Users\prakk\Desktop\Project\Natours\node_modules\validator\es\lib\ltrim.js133821097098436293 0
 86C:\Users\prakk\Desktop\Project\Natours\node_modules\validator\es\lib\normalizeEmail.js133821097098526073 0
@@ -2693,7 +2693,7 @@
 77C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\.eslintrc.js133823495618457602 0
 76C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\math\clamp.js133823495887172551 0
 85C:\Users\prakk\Desktop\Project\Natours\node_modules\validator\es\lib\util\includes.js133821097094409849 0
-91C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\shadowed_core\node_modules133823447562132919 1
+91C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\shadowed_core\node_modules133823447562212907 1
 84C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\cjs\resources\Disputes.js133823495760381616 0
 82C:\Users\prakk\Desktop\Project\Natours\node_modules\mongoose\lib\helpers\aggregate133815241031153450 1
 96C:\Users\prakk\Desktop\Project\Natours\node_modules\@swc\helpers\node_modules\tslib\package.json133823495643209555 0
@@ -2809,7 +2809,7 @@
 91C:\Users\prakk\Desktop\Project\Natours\node_modules\sharp\node_modules\semver\bin\semver.js133823495738655319 0
 80C:\Users\prakk\Desktop\Project\Natours\node_modules\undici-types\dispatcher.d.ts133823495666496743 0
 90C:\Users\prakk\Desktop\Project\Natours\node_modules\undici-types\env-http-proxy-agent.d.ts133823495671424243 0
-84C:\Users\prakk\Desktop\Project\Natours\node_modules\cross-env\node_modules\which\bin133823495610870391 1
+84C:\Users\prakk\Desktop\Project\Natours\node_modules\cross-env\node_modules\which\bin133823495614464640 1
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\diagnostic\test133823495719314656 1
 72C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\isFunction.js133821096967341264 0
 96C:\Users\prakk\Desktop\Project\Natours\node_modules\@swc\helpers\esm\_interop_require_default.js133823495803447863 0
@@ -2952,7 +2952,7 @@
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\math\imul.js133823496001159848 0
 85C:\Users\prakk\Desktop\Project\Natours\node_modules\type-fest\source\stringified.d.ts133823495733560682 0
 71C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\lib\core.js133823447551231317 0
-66C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\set133823496005100856 1
+66C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\set133823496021238349 1
 93C:\Users\prakk\Desktop\Project\Natours\node_modules\supports-preserve-symlinks-flag\.eslintrc133823447529163492 0
 88C:\Users\prakk\Desktop\Project\Natours\node_modules\@swc\helpers\_\_wrap_async_generator133823495892704566 1
 76C:\Users\prakk\Desktop\Project\Natours\node_modules\sparse-bitfield\index.js133815240984233625 0
@@ -3016,7 +3016,7 @@
 106C:\Users\prakk\Desktop\Project\Natours\node_modules\@babel\types\lib\converters\toBindingIdentifierName.js133823447566031128 0
 84C:\Users\prakk\Desktop\Project\Natours\node_modules\term-size\vendor\macos\.DS_Store133823495630136701 0
 107C:\Users\prakk\Desktop\Project\Natours\node_modules\dom-serializer\node_modules\entities\lib\index.d.ts.map133823495673712120 0
-91C:\Users\prakk\Desktop\Project\Natours\node_modules\supports-preserve-symlinks-flag\.github133823447540728041 1
+91C:\Users\prakk\Desktop\Project\Natours\node_modules\supports-preserve-symlinks-flag\.github133823447541164530 1
 97C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\cjs\resources\Entitlements\Features.js133823495776656610 0
 90C:\Users\prakk\Desktop\Project\Natours\node_modules\supports-preserve-symlinks-flag\.nycrc133823447531035740 0
 93C:\Users\prakk\Desktop\Project\Natours\node_modules\supports-preserve-symlinks-flag\README.md133823447540367962 0
@@ -3062,7 +3062,7 @@
 82C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\Capabilities.d.ts133823495893558123 0
 68C:\Users\prakk\Desktop\Project\Natours\node_modules\is-regex\test.js133815223227615673 0
 81C:\Users\prakk\Desktop\Project\Natours\node_modules\mquery\lib\collection\node.js133815240984577062 0
-84C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\module_dir\ymodules133823447558912594 1
+84C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\module_dir\ymodules133823447558942571 1
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\lib\sort.js.map133815241026024107 0
 73C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\Checkout133823495951649142 1
 102C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\core\node_modules\semver\ranges\outside.js133823495728042028 0
@@ -3129,7 +3129,7 @@
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\index.d.ts133823495923820930 0
 85C:\Users\prakk\Desktop\Project\Natours\node_modules\htmlparser2\lib\WritableStream.js133823495660126978 0
 112C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\lib\cmap\auth\mongodb_oidc\azure_machine_workflow.js133815240985514696 0
-72C:\Users\prakk\Desktop\Project\Natours\node_modules\promise\setimmediate133823447558722609 1
+72C:\Users\prakk\Desktop\Project\Natours\node_modules\promise\setimmediate133823447558772629 1
 82C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\InvoiceItems.d.ts133823495923954175 0
 117C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\lib\cmap\auth\mongodb_oidc\human_callback_workflow.js.map133815241016164062 0
 88C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\esm\resources\AccountLinks.js133823495641227809 0
@@ -3150,7 +3150,7 @@
 77C:\Users\prakk\Desktop\Project\Natours\node_modules\import-fresh\package.json133823495617850288 0
 67C:\Users\prakk\Desktop\Project\Natours\node_modules\has\LICENSE-MIT133815223127440351 0
 69C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\set.js133823496041778390 0
-78C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\features133823495991424530 1
+78C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\features133823495991760733 1
 102C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\esm\resources\Treasury\FinancialAccounts.js133823495784803289 0
 73C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\lib.d.ts133823495925800279 0
 79C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\LineItems.d.ts133823495925950323 0
@@ -3173,7 +3173,7 @@
 90C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\PaymentLinksResource.d.ts133823495937120349 0
 105C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\features\registerprotocolhandler.js133823495954586799 0
 82C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\cjs\resources\TaxIds.js133823495865121618 0
-75C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\pathfilter133823447562760465 1
+75C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\pathfilter133823447562820464 1
 97C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\PaymentMethodConfigurations.d.ts133823495937550341 0
 90C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\string\match-all.js133823496016948367 0
 69C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\_baseAt.js133821096954980702 0
@@ -3223,7 +3223,7 @@
 102C:\Users\prakk\Desktop\Project\Natours\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\intro.doc133823495783801659 0
 77C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\Refunds.d.ts133823495947472416 0
 85C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\RefundsResource.d.ts133823495947612482 0
-75C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\module_dir133823447558912594 1
+75C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\module_dir133823447562490438 1
 68C:\Users\prakk\Desktop\Project\Natours\node_modules\has-symbols\test133823495649580431 1
 94C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\profiler\lib\SamplingProfiler.d.ts133823495707503909 0
 74C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\partition.js133821096970424612 0
@@ -3233,7 +3233,7 @@
 94C:\Users\prakk\Desktop\Project\Natours\node_modules\sharp\node_modules\semver\classes\range.js133823495733310679 0
 70C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\_reorder.js133821096961661609 0
 100C:\Users\prakk\Desktop\Project\Natours\node_modules\parcel\node_modules\color-convert\conversions.js133823495619810024 0
-79C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\precedence\bbb133823447562970428 1
+79C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\precedence\bbb133823447563060385 1
 101C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\array\virtual\last-index-of.js133823496014293924 0
 71C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\transform.js133821096974493116 0
 71C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\snakeCase.js133821096972438398 0
@@ -3281,7 +3281,7 @@
 87C:\Users\prakk\Desktop\Project\Natours\node_modules\mongoose\types\inferrawdoctype.d.ts133815241034727105 0
 74C:\Users\prakk\Desktop\Project\Natours\node_modules\finalhandler\README.md133823495632990555 0
 127C:\Users\prakk\Desktop\Project\Natours\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\package.json133823495720792591 0
-66C:\Users\prakk\Desktop\Project\Natours\node_modules\hasown\.github133823447540488012 1
+66C:\Users\prakk\Desktop\Project\Natours\node_modules\hasown\.github133823447540797997 1
 102C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\utils\node_modules\supports-color\index.js133823495618125985 0
 90C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\baz\package.json133823447579393783 0
 74C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\invertObj.js133821096966259308 0
@@ -3548,10 +3548,10 @@
 65C:\Users\prakk\Desktop\Project\Natours\node_modules\isexe\mode.js133815223248436128 0
 74C:\Users\prakk\Desktop\Project\Natours\node_modules\is-core-module\LICENSE133823447533153883 0
 107C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\FinancialConnections\AccountsResource.d.ts133823495888709795 0
-63C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\bin133823447536370471 1
+63C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\bin133823447537212091 1
 99C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\FinancialConnections\Sessions.d.ts133823495951425081 0
 93C:\Users\prakk\Desktop\Project\Natours\node_modules\mongoose\lib\helpers\specialProperties.js133815241030091130 0
-100C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\symlinked\_\symlink_target133823447534157727 1
+100C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\symlinked\_\symlink_target133823447534709483 1
 70C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\stage\2.js133823495865071568 0
 107C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\FinancialConnections\SessionsResource.d.ts133823495952126954 0
 101C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\Entitlements\ActiveEntitlements.d.ts133823495888979809 0
@@ -3566,7 +3566,7 @@
 83C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\regions\PA.js133823495948132489 0
 95C:\Users\prakk\Desktop\Project\Natours\node_modules\math-intrinsics\constants\maxArrayLength.js133823495660036941 0
 109C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\Entitlements\ActiveEntitlementSummaries.d.ts133823495889299771 0
-92C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-postcss\node_modules133823495577192167 1
+92C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-postcss\node_modules133823496100053924 1
 91C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\Entitlements\Features.d.ts133823495913602910 0
 78C:\Users\prakk\Desktop\Project\Natours\node_modules\lightningcss\node\index.js133823495671605225 0
 95C:\Users\prakk\Desktop\Project\Natours\node_modules\mongoose\lib\schema\operators\geospatial.js133815241002441727 0
@@ -3576,10 +3576,10 @@
 113C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-html\node_modules\semver\functions\lte.js133823495713386428 0
 68C:\Users\prakk\Desktop\Project\Natours\node_modules\minimist\LICENSE133823495617840284 0
 92C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\Climate\OrdersResource.d.ts133823495931455827 0
-80C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\node_path\x\ccc133823447559137007 1
+80C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\node_path\x\ccc133823447559166962 1
 91C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\packager-svg\src\SVGPackager.js133823495677218272 0
 90C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-babel\package.json133823495728274359 0
-98C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\symlinked\_\node_modules133823447553261986 1
+98C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\symlinked\_\node_modules133823447553391759 1
 66C:\Users\prakk\Desktop\Project\Natours\dev-data\img\new-tour-4.jpg133812257953550367 0
 89C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\src\operations\collections.ts133815241034707147 0
 86C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\Climate\Products.d.ts133823495945006342 0
@@ -3598,7 +3598,7 @@
 78C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\array\values.js133823496056160762 0
 69C:\Users\prakk\Desktop\Project\Natours\node_modules\msgpackr\index.js133823495688973146 0
 69C:\Users\prakk\Desktop\Project\Natours\node_modules\json5\lib\util.js133823495664381325 0
-77C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\number133823496048819295 1
+77C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\number133823496049459264 1
 83C:\Users\prakk\Desktop\Project\Natours\node_modules\axios\lib\core\buildFullPath.js133823495726266337 0
 92C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\types\Billing\AlertsResource.d.ts133823495889656778 0
 80C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\es6\index.js133823496006093476 0
@@ -3669,7 +3669,7 @@
 83C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\regions\FK.js133823495887692554 0
 67C:\Users\prakk\Desktop\Project\Natours\node_modules\qs\package.json133823495679580190 0
 86C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\src\client-side-encryption133815241046760255 1
-88C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\module_dir\ymodules\aaa133823447558942571 1
+88C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\module_dir\ymodules\aaa133823447558962640 1
 81C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\esm\resources\Checkout133823495845555152 1
 89C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-html\package.json133823495687342601 0
 74C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\stage\index.js133823496008541055 0
@@ -3691,7 +3691,7 @@
 84C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\esm\resources\Disputes.js133823495763885053 0
 83C:\Users\prakk\Desktop\Project\Natours\node_modules\mongoose\types\schematypes.d.ts133815241036353665 0
 71C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\src\bson.ts133815241033292948 0
-85C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\esm\resources\Entitlements133823495680760118 1
+85C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\esm\resources\Entitlements133823495777381213 1
 97C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\_array-species-constructor.js133823495729670404 0
 73C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\es6\number.js133823496018608377 0
 72C:\Users\prakk\Desktop\Project\Natours\node_modules\node-addon-api\tools133823495713816415 1
@@ -3699,7 +3699,7 @@
 98C:\Users\prakk\Desktop\Project\Natours\node_modules\htmlnano\lib\modules\removeEmptyAttributes.cjs133823495723011921 0
 89C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\esm\resources\EphemeralKeys.js133823495771692611 0
 97C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\runtime-js\src\helpers\.eslintrc.json133823495751925481 0
-92C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\multirepo\packages133823447560272962 1
+92C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\multirepo\packages133823447560935414 1
 89C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\esm\resources\ExchangeRates.js133823495775611044 0
 94C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\modules\es7.math.fscale.js133823495979972941 0
 81C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\esm\resources\Files.js133823495784125760 0
@@ -3742,7 +3742,7 @@
 83C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\esm\resources\Payouts.js133823495816697568 0
 115C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\multirepo\packages\package-b\package.json133823447580811899 0
 98C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml\node_modules\htmlparser2\lib\index.js133823495709418536 0
-87C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\browser_field133823447549086883 1
+87C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\browser_field133823447579483819 1
 97C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\object\set-prototype-of.js133823496039634380 0
 71C:\Users\prakk\Desktop\Project\Natours\node_modules\forwarded\README.md133823495631738478 0
 85C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\packager-css\package.json133823495682375529 0
@@ -3776,7 +3776,7 @@
 84C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\esm\resources\TaxCodes.js133823495865071568 0
 86C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\string\code-point-at.js133823495888159850 0
 82C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\esm\resources\TaxIds.js133823495865191574 0
-66C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\map133823496004110948 1
+66C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\map133823496021008361 1
 102C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-babel\lib\remapAstLocations.js133823495720932531 0
 70C:\Users\prakk\Desktop\Project\Natours\node_modules\picocolors\LICENSE133823495608627438 0
 86C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\events\src\ValueEmitter.js133823495727591272 0
@@ -3982,7 +3982,7 @@
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\precedence133823447562980445 1
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\cjs\multipart.js133823495797148708 0
 93C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\symbol\to-primitive.js133823496049759266 0
-68C:\Users\prakk\Desktop\Project\Natours\node_modules\core-util-is\lib133823495609855595 1
+68C:\Users\prakk\Desktop\Project\Natours\node_modules\core-util-is\lib133823495612373713 1
 71C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\cjs\platform133823495883929929 1
 74C:\Users\prakk\Desktop\Project\Natours\node_modules\append-field\README.md133823495617516589 0
 103C:\Users\prakk\Desktop\Project\Natours\node_modules\sharp\node_modules\semver\internal\parse-options.js133823495728958023 0
@@ -4128,10 +4128,10 @@
 90C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\cjs\resources\Issuing\Tokens.js133823495865631469 0
 114C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\cjs\resources\TestHelpers\Treasury\OutboundTransfers.js133823495805741582 0
 111C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\cjs\resources\TestHelpers\Treasury\ReceivedDebits.js133823495836539938 0
-65C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\build133823496059549613 1
+65C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\build133823496059879478 1
 70C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\stage\1.js133823495864781460 0
 104C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\cjs\resources\TestHelpers\Terminal\Readers.js133823495834397881 0
-67C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\example133823447546984643 1
+67C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\example133823447578218732 1
 82C:\Users\prakk\Desktop\Project\Natours\node_modules\postcss-value-parser\README.md133823495645053256 0
 94C:\Users\prakk\Desktop\Project\Natours\node_modules\@swc\helpers\_\_class_private_field_update133823495848731149 1
 74C:\Users\prakk\Desktop\Project\Natours\node_modules\detect-libc\.npmignore133823495612483715 0
@@ -4152,7 +4152,7 @@
 92C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\cjs\resources\Terminal\Readers.js133823495832127876 0
 92C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\cjs\resources\Tax\Transactions.js133823495867020909 0
 100C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\cjs\resources\Sigma\ScheduledQueryRuns.js133823495844099364 0
-82C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\quux\foo133823447561340329 1
+82C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\quux\foo133823447561381106 1
 110C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml\node_modules\htmlparser2\lib\FeedHandler.d.ts.map133823495723304243 0
 71C:\Users\prakk\Desktop\Project\Natours\node_modules\mquery\lib\utils.js133815240984821144 0
 92C:\Users\prakk\Desktop\Project\Natours\node_modules\stripe\cjs\resources\Climate\Products.js133823495826936810 0
@@ -4338,7 +4338,7 @@
 85C:\Users\prakk\Desktop\Project\Natours\node_modules\side-channel-weakmap\CHANGELOG.md133823495646737159 0
 71C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\src\sort.ts133815241046449343 0
 85C:\Users\prakk\Desktop\Project\Natours\node_modules\side-channel-weakmap\package.json133823495640073259 0
-88C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\same_names\foo133823447561764888 1
+88C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\same_names\foo133823447561867604 1
 82C:\Users\prakk\Desktop\Project\Natours\node_modules\side-channel-weakmap\README.md133823495651948866 0
 93C:\Users\prakk\Desktop\Project\Natours\node_modules\sharp\node_modules\semver\ranges\valid.js133823495746786696 0
 93C:\Users\prakk\Desktop\Project\Natours\node_modules\parcel\node_modules\color-convert\LICENSE133823495633230545 0
@@ -4405,7 +4405,7 @@
 69C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\math.js133821096969319995 0
 69C:\Users\prakk\Desktop\Project\Natours\node_modules\pug-attrs\LICENSE133823447529383222 0
 80C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\function\index.js133823496003520906 0
-69C:\Users\prakk\Desktop\Project\Natours\controllers\errorController.js133822710689366937 0
+69C:\Users\prakk\Desktop\Project\Natours\controllers\errorController.js133823511115569197 0
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\side-channel\index.d.ts133823495660097010 0
 95C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\features\queryselector.js133823495954136822 0
 72C:\Users\prakk\Desktop\Project\Natours\node_modules\side-channel\LICENSE133823495622368761 0
@@ -4493,7 +4493,7 @@
 101C:\Users\prakk\Desktop\Project\Natours\node_modules\sharp\node_modules\detect-libc\lib\detect-libc.js133823495616368681 0
 74C:\Users\prakk\Desktop\Project\Natours\node_modules\serve-static\README.md133823495632960544 0
 98C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\core\test\fixtures\parcel\package.json133823495846881159 0
-78C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\shadowed_core133823447562122906 1
+78C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\shadowed_core133823447562132919 1
 87C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\src\operations\is_capped.ts133815241039752744 0
 84C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\_to-primitive.js133823495848301100 0
 86C:\Users\prakk\Desktop\Project\Natours\node_modules\sharp\node_modules\.bin\semver.ps1133823496100911167 0
@@ -4574,7 +4574,7 @@
 81C:\Users\prakk\Desktop\Project\Natours\node_modules\lightningcss\node\ast.js.flow133823495643759599 0
 101C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\features\keyboardevent-which.js133823495919365605 0
 72C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\package.json133823447579027668 0
-71C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\dotdot133823447557867715 1
+71C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\dotdot133823447558552622 1
 73C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\toFinite.js133821096974016541 0
 78C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\home_paths.js133823447556798031 0
 97C:\Users\prakk\Desktop\Project\Natours\node_modules\@babel\types\lib\clone\cloneWithoutLoc.js.map133823447559503253 0
@@ -4594,7 +4594,7 @@
 78C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\pathfilter.js133823447568270252 0
 78C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\precedence.js133823447570102267 0
 92C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\package-manager\lib\index.js.map133823495755405247 0
-71C:\Users\prakk\Desktop\Project\Natours\node_modules\is-core-module\test133823447534821234 1
+71C:\Users\prakk\Desktop\Project\Natours\node_modules\is-core-module\test133823447535233452 1
 83C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\string\at.js133823495879209148 0
 81C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver_sync.js133823447571967171 0
 78C:\Users\prakk\Desktop\Project\Natours\node_modules\msgpackr\dist\index.js.map133823495740265281 0
@@ -4604,7 +4604,7 @@
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\subdirs.js133823447577937653 0
 79C:\Users\prakk\Desktop\Project\Natours\node_modules\mongoose\lib\schema\uuid.js133815241032250588 0
 76C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\symlinks.js133823447578047625 0
-96C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\shadowed_core\node_modules\util133823447562202995 1
+96C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\shadowed_core\node_modules\util133823447562316096 1
 105C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\shadowed_core\node_modules\util\index.js133823447562303009 0
 88C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\dot_slash_main133823447579941144 1
 97C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\reflect\delete-property.js133823495906655693 0
@@ -4617,20 +4617,20 @@
 88C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\string\italics.js133823496012565531 0
 88C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\incorrect_main133823447580063967 1
 92C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\features\css-canvas.js133823495795964695 0
-63C:\Users\prakk\Desktop\Project\Natours\node_modules\promise\src133823447556358027 1
+63C:\Users\prakk\Desktop\Project\Natours\node_modules\promise\src133823447556518065 1
 80C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\mug.js133823447565330680 0
 89C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\modules\_set-proto.js133823495837502278 0
 76C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\lib\index.js.map133815241017535576 0
 74C:\Users\prakk\Desktop\Project\Natours\node_modules\domhandler\lib\node.js133823495641197753 0
-89C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\nested_symlinks133823447548381524 1
+89C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\nested_symlinks133823447548675269 1
 95C:\Users\prakk\Desktop\Project\Natours\node_modules\cosmiconfig\node_modules\parse-json\license133823495609056620 0
 69C:\Users\prakk\Desktop\Project\Natours\node_modules\mquery\lib\env.js133815240983997465 0
 103C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\features\constraint-validation.js133823495789560645 0
 113C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml-parser\node_modules\entities\lib\decode_codepoint.js133823495615557185 0
 86C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\string\virtual\fixed.js133823495993410091 0
 95C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\library\es6.date.to-json.js133823495926555358 0
-84C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\other_path133823447566639304 1
-84C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\same_names133823447553062418 1
+84C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\other_path133823447577312374 1
+84C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\same_names133823447561764888 1
 84C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\array\find.js133823495993159996 0
 91C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\modules\es7.set.from.js133823495986707713 0
 105C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\symlinked\_\node_modules\foo.js133823447553391759 0
@@ -4640,7 +4640,7 @@
 117C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml-parser\node_modules\entities\lib\decode_codepoint.js.map133823495719458038 0
 92C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\other_path\root.js133823447577312374 0
 95C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\es7.object.lookup-getter.js133823495982453049 0
-95C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\nested_symlinks\mylib133823447578842660 1
+95C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\nested_symlinks\mylib133823447581311879 1
 108C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\nested_symlinks\mylib\package.json133823447581321836 0
 94C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\resolver\multirepo\lerna.json133823447578944132 0
 68C:\Users\prakk\Desktop\Project\Natours\node_modules\.bin\resolve.ps1133823447593596310 0
@@ -4674,13 +4674,13 @@
 87C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\precedence\aaa\main.js133823447562940435 0
 71C:\Users\prakk\Desktop\Project\Natours\node_modules\lmdb\dist\index.cjs133823495771505242 0
 73C:\Users\prakk\Desktop\Project\Natours\node_modules\is-regex\CHANGELOG.md133815223241696125 0
-84C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\pathfilter\deep_ref133823447562810367 1
+84C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\pathfilter\deep_ref133823447562860452 1
 64C:\Users\prakk\Desktop\Project\Natours\node_modules\is-json\test133823495639376581 1
 68C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\core\lib133823495837962332 1
-80C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\node_path\y\bbb133823447559388285 1
-80C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\node_path\y\ccc133823447559533243 1
+80C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\node_path\y\bbb133823447559448283 1
+80C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\node_path\y\ccc133823447559547092 1
 77C:\Users\prakk\Desktop\Project\Natours\node_modules\pug-code-gen\package.json133823447533910708 0
-80C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\node_path\x\aaa133823447559024268 1
+80C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\node_path\x\aaa133823447559034532 1
 71C:\Users\prakk\Desktop\Project\Natours\node_modules\promise\src\done.js133823447552942524 0
 89C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\node_path\x\ccc\index.js133823447559186943 0
 88C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\src\sdam\server_selection.ts133815241045337309 0
@@ -4695,7 +4695,7 @@
 79C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\trimCharsStart.js133821096974559233 0
 79C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\src\mongo_client.ts133815241040333298 0
 97C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\module_dir\xmodules\aaa\index.js133823447558782588 0
-75C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\dotdot\abc133823447557867715 1
+75C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\dotdot\abc133823447557982572 1
 84C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\test\dotdot\abc\index.js133823447558235792 0
 70C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\sumBy.js133821096973366837 0
 72C:\Users\prakk\Desktop\Project\Natours\node_modules\resolve\lib\async.js133823447548139506 0
@@ -4750,7 +4750,7 @@
 113C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-html\node_modules\semver\functions\cmp.js133823495628115165 0
 81C:\Users\prakk\Desktop\Project\Natours\node_modules\readable-stream\GOVERNANCE.md133823495719448077 0
 70C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\first.js133821096965188572 0
-74C:\Users\prakk\Desktop\Project\Natours\node_modules\cross-env\node_modules133823495577312148 1
+74C:\Users\prakk\Desktop\Project\Natours\node_modules\cross-env\node_modules133823496100064001 1
 100C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\object\get-own-property-descriptor.js133823495998251749 0
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\readable-stream\LICENSE133823495608770338 0
 80C:\Users\prakk\Desktop\Project\Natours\node_modules\readable-stream\package.json133823495709588650 0
@@ -4893,6 +4893,7 @@
 89C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb-connection-string-url\LICENSE133815240986026230 0
 67C:\Users\prakk\Desktop\Project\Natours\node_modules\pug-runtime\lib133823447536667082 1
 87C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\lib\cmap\auth\gssapi.js.map133815241016114050 0
+69C:\Users\prakk\Desktop\Project\Natours\controllers\viewsController.js133823511605539438 0
 71C:\Users\prakk\Desktop\Project\Natours\node_modules\pug-runtime\LICENSE133823447529403263 0
 82C:\Users\prakk\Desktop\Project\Natours\node_modules\bson\src\utils\number_utils.ts133815241000023125 0
 76C:\Users\prakk\Desktop\Project\Natours\node_modules\pug-runtime\package.json133823447539758177 0
@@ -4901,7 +4902,7 @@
 73C:\Users\prakk\Desktop\Project\Natours\node_modules\pug-runtime\README.md133823447541459121 0
 94C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\object\lookup-setter.js133823496015704633 0
 80C:\Users\prakk\Desktop\Project\Natours\node_modules\pug-runtime\lib\internals.js133823447535343490 0
-74C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\runtime-js\src133823495660326932 1
+74C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\runtime-js\src133823495743857116 1
 91C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\features\dom-range.js133823495870502798 0
 110C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml-parser\node_modules\entities\lib\esm\index.js.map133823495750217398 0
 78C:\Users\prakk\Desktop\Project\Natours\node_modules\pug-runtime\lib\sources.js133823447537727243 0
@@ -4927,7 +4928,7 @@
 70C:\Users\prakk\Desktop\Project\Natours\node_modules\pug-load\README.md133823447535273479 0
 71C:\Users\prakk\Desktop\Project\Natours\node_modules\pug-linker\index.js133823447531221953 0
 90C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\number\parse-int.js133823496026148355 0
-79C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\weak-map133823496008181066 1
+79C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\weak-map133823496023098374 1
 82C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\src\read_preference.ts133815241044211625 0
 70C:\Users\prakk\Desktop\Project\Natours\node_modules\pug-linker\LICENSE133823447529423276 0
 95C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\modules\_fails-is-regexp.js133823495757521456 0
@@ -4995,7 +4996,7 @@
 93C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\codeframe\node_modules\color-name133823495622008664 1
 115C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml-parser\node_modules\htmlparser2\lib\Tokenizer.d.ts.map133823495738745333 0
 64C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\lt.js133821096969170037 0
-67C:\Users\prakk\Desktop\Project\Natours\node_modules\promise\domains133823447548199453 1
+67C:\Users\prakk\Desktop\Project\Natours\node_modules\promise\domains133823447548644979 1
 73C:\Users\prakk\Desktop\Project\Natours\node_modules\basic-auth\HISTORY.md133815223127510351 0
 86C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\lib\read_preference.js.map133815241023290031 0
 70C:\Users\prakk\Desktop\Project\Natours\node_modules\entities\readme.md133823495631178486 0
@@ -5075,7 +5076,7 @@
 69C:\Users\prakk\Desktop\Project\Natours\node_modules\process\README.md133823495612565270 0
 83C:\Users\prakk\Desktop\Project\Natours\node_modules\mongoose\lib\connectionState.js133815241001044724 0
 110C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\src\operations\client_bulk_write\results_merger.ts133815241044555307 0
-72C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml-render\dist133823495617640259 1
+72C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml-render\dist133823495641357824 1
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml-render\license133823495612869261 0
 100C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\modules\es7.string.trim-right.js133823495989266280 0
 105C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml-parser\node_modules\entities\lib\escape.d.ts133823495756095646 0
@@ -5225,7 +5226,7 @@
 130C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml-parser\node_modules\entities\lib\esm\generated\decode-data-xml.js.map133823495729229409 0
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\iconv-lite\Changelog.md133823495613995942 0
 83C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\math\sign.js133823496043962388 0
-70C:\Users\prakk\Desktop\Project\Natours\controllers\reviewController.js133822710904785375 0
+70C:\Users\prakk\Desktop\Project\Natours\controllers\reviewController.js133823511306378718 0
 105C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\features\date-tolocaledatestring.js133823495865241496 0
 124C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml-parser\node_modules\entities\lib\esm\generated\encode-html.d.ts133823495754843584 0
 82C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\src\operations\drop.ts133815241037790437 0
@@ -5295,7 +5296,7 @@
 69C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\core\_.js133823495614561442 0
 107C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml-parser\node_modules\domutils\lib\esm\legacy.js133823495723304243 0
 89C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\reflect\delete-property.js133823495906080144 0
-69C:\Users\prakk\Desktop\Project\Natours\node_modules\@babel\parser\bin133823447534851283 1
+69C:\Users\prakk\Desktop\Project\Natours\node_modules\@babel\parser\bin133823447535233452 1
 87C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\src\operations\operation.ts133815241043210150 0
 111C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml-parser\node_modules\domutils\lib\esm\legacy.js.map133823495749837465 0
 104C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\features\css-background-offsets.js133823495794799052 0
@@ -5333,7 +5334,7 @@
 84C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\string\starts-with.js133823496046459259 0
 86C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\features\spdy.js133823495969988809 0
 104C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml-parser\node_modules\domhandler\lib\index.js133823495626059453 0
-76C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\array\virtual133823496045581348 1
+76C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\array\virtual133823496056249171 1
 105C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml-parser\node_modules\domhandler\lib\node.d.ts133823495680590099 0
 77C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\namer-default\lib133823495674929530 1
 109C:\Users\prakk\Desktop\Project\Natours\node_modules\posthtml-parser\node_modules\domhandler\lib\node.d.ts.map133823495665167944 0
@@ -5941,7 +5942,7 @@
 81C:\Users\prakk\Desktop\Project\Natours\node_modules\msgpackr-extract\package.json133823495637068233 0
 78C:\Users\prakk\Desktop\Project\Natours\node_modules\msgpackr-extract\README.md133823495641247781 0
 114C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-posthtml\node_modules\semver\bin\semver.js133823495738455300 0
-72C:\Users\prakk\Desktop\Project\Natours\node_modules\msgpackr-extract\src133823495610202026 1
+72C:\Users\prakk\Desktop\Project\Natours\node_modules\msgpackr-extract\src133823495612575312 1
 70C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\_baseSet.js133821096956490803 0
 84C:\Users\prakk\Desktop\Project\Natours\node_modules\msgpackr-extract\src\extract.cpp133823495614595611 0
 128C:\Users\prakk\Desktop\Project\Natours\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\build-test.js133823495706396548 0
@@ -6057,7 +6058,7 @@
 79C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\regexp\search.js133823496037391273 0
 84C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\es6.math.tanh.js133823495937510342 0
 71C:\Users\prakk\Desktop\Project\Natours\node_modules\mongoose\browser.js133815240996621145 0
-90C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-babel\node_modules133823495577171895 1
+90C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-babel\node_modules133823496100053924 1
 92C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\lib\cursor\aggregation_cursor.js133815240984423028 0
 81C:\Users\prakk\Desktop\Project\Natours\node_modules\express-rate-limit\license.md133821096251490808 0
 95C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\modules\es6.array.reduce.js133823495924474860 0
@@ -6180,7 +6181,7 @@
 79C:\Users\prakk\Desktop\Project\Natours\node_modules\minimist\test\whitespace.js133823495700248164 0
 85C:\Users\prakk\Desktop\Project\Natours\node_modules\mongoose\lib\schema\decimal128.js133815241001369156 0
 80C:\Users\prakk\Desktop\Project\Natours\node_modules\mongoose\lib\schema\index.js133815241004291514 0
-82C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\types-internal\scripts133823495636673464 1
+82C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\types-internal\scripts133823495698251020 1
 80C:\Users\prakk\Desktop\Project\Natours\node_modules\mongoose\lib\schema\int32.js133815241005634612 0
 85C:\Users\prakk\Desktop\Project\Natours\node_modules\leaflet\src\layer\vector\index.js133823495750719410 0
 67C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library133823496043144278 1
@@ -6250,7 +6251,7 @@
 89C:\Users\prakk\Desktop\Project\Natours\node_modules\mongoose\lib\helpers\omitUndefined.js133815241020169059 0
 109C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-postcss\node_modules\semver\range.bnf133823495614364653 0
 80C:\Users\prakk\Desktop\Project\Natours\node_modules\mongoose\lib\helpers\once.js133815241020239024 0
-88C:\Users\prakk\Desktop\Project\Natours\node_modules\is-expression\node_modules\acorn\bin133823447527819885 1
+88C:\Users\prakk\Desktop\Project\Natours\node_modules\is-expression\node_modules\acorn\bin133823447529443306 1
 113C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-js\node_modules\semver\functions\minor.js133823495724614284 0
 117C:\Users\prakk\Desktop\Project\Natours\node_modules\mongoose\lib\helpers\discriminator\applyEmbeddedDiscriminators.js133815240991312035 0
 89C:\Users\prakk\Desktop\Project\Natours\node_modules\mongoose\lib\helpers\parallelLimit.js133815241020537719 0
@@ -6606,7 +6607,7 @@
 68C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\lib\sdam133815241029799115 1
 79C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\lib\sessions.js.map133815241024312675 0
 95C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\reflect\get-own-metadata-keys.js133823495997920650 0
-79C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\weak-set133823496008230978 1
+79C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\weak-set133823496023318398 1
 74C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\lib\timeout.js133815241002692921 0
 80C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\_strictLastIndexOf.js133821096961991379 0
 114C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\package-manager\node_modules\semver\functions\patch.js133823495730613543 0
@@ -6681,7 +6682,7 @@
 83C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\regions\IN.js133823495902614879 0
 98C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\lib\cursor\change_stream_cursor.js.map133815241004701576 0
 110C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\reporter-cli\node_modules\supports-color\readme.md133823495631942870 0
-95C:\Users\prakk\Desktop\Project\Natours\node_modules\cosmiconfig\node_modules\js-yaml\lib\schema133823495654681815 1
+95C:\Users\prakk\Desktop\Project\Natours\node_modules\cosmiconfig\node_modules\js-yaml\lib\schema133823495698593194 1
 93C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\lib\cursor\list_indexes_cursor.js133815241000588669 0
 94C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\workers\lib\core-worker.browser.js133823495679003124 0
 97C:\Users\prakk\Desktop\Project\Natours\node_modules\mongodb\lib\cursor\list_indexes_cursor.js.map133815241020463550 0
@@ -6865,7 +6866,7 @@
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash.isstring\LICENSE133821097346860592 0
 80C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash.isstring\package.json133821097346750610 0
 89C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\string\iterator.js133823496013269248 0
-68C:\Users\prakk\Desktop\Project\Natours\controllers\handlerFactory.js133822710796133765 0
+68C:\Users\prakk\Desktop\Project\Natours\controllers\handlerFactory.js133823511214757765 0
 68C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\nth.js133821096969870021 0
 80C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash.isplainobject\LICENSE133821097346870594 0
 80C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash.isnumber\package.json133821097346760590 0
@@ -7225,7 +7226,7 @@
 82C:\Users\prakk\Desktop\Project\Natours\node_modules\cosmiconfig\dist\defaults.d.ts133823495749211504 0
 69C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\without.js133821096975187653 0
 67C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\words.js133821096975211064 0
-76C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\utils\test\input133823495686545942 1
+76C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\utils\test\input133823495757275332 1
 66C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\wrap.js133821096975221138 0
 71C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\wrapperAt.js133821096975261135 0
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\isFunction.js133821096967267174 0
@@ -7573,7 +7574,6 @@
 113C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\node-resolver-core\node_modules\semver\internal\re.js133823495735569009 0
 72C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\attempt.js133821096962627033 0
 98C:\Users\prakk\Desktop\Project\Natours\node_modules\cosmiconfig\node_modules\js-yaml\lib\schema.js133823495722320518 0
-68C:\Users\prakk\Desktop\Project\Natours\controllers\viewController.js133823472324509471 0
 71C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\before.js133821096962666140 0
 69C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\bind.js133821096962686284 0
 72C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\bindAll.js133821096962706215 0
@@ -7715,12 +7715,12 @@
 71C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\invert.js133821096966215199 0
 81C:\Users\prakk\Desktop\Project\Natours\node_modules\leaflet\src\images\layers.svg133823495807496772 0
 73C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\invertBy.js133821096966239311 0
-78C:\Users\prakk\Desktop\Project\Natours\node_modules\@babel\types\lib\ast-types133823447542838052 1
+78C:\Users\prakk\Desktop\Project\Natours\node_modules\@babel\types\lib\ast-types133823447543121356 1
 76C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\isArguments.js133821096966357470 0
 95C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\modules\es6.regexp.flags.js133823495954376822 0
 83C:\Users\prakk\Desktop\Project\Natours\node_modules\leaflet\dist\leaflet-src.js.map133823495797258665 0
 76C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\isArrayLike.js133821096966475150 0
-71C:\Users\prakk\Desktop\Project\Natours\node_modules\leaflet\src\control133823495678242830 1
+71C:\Users\prakk\Desktop\Project\Natours\node_modules\leaflet\src\control133823495739955290 1
 87C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\array\virtual\entries.js133823495909665668 0
 74C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\isBoolean.js133821096966541680 0
 71C:\Users\prakk\Desktop\Project\Natours\node_modules\dotenv\README-es.md133823495646121153 0
@@ -7739,7 +7739,7 @@
 70C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\isNaN.js133821096967652532 0
 96C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\features\xml-serializer.js133823495991438475 0
 73C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\isNative.js133821096967701590 0
-68C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\typed133823496054456201 1
+68C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\typed133823496054618077 1
 70C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\isNil.js133821096967761730 0
 76C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\padCharsEnd.js133821096970281511 0
 72C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\whereEq.js133821096975157594 0
@@ -7976,7 +7976,7 @@
 98C:\Users\prakk\Desktop\Project\Natours\node_modules\ecdsa-sig-formatter\src\ecdsa-sig-formatter.js133821097347060609 0
 73C:\Users\prakk\Desktop\Project\Natours\node_modules\lodash\fp\_mapping.js133821096961361376 0
 60C:\Users\prakk\Desktop\Project\Natours\node_modules\lmdb\bin133823495794789088 1
-69C:\Users\prakk\Desktop\Project\Natours\node_modules\lmdb\dependencies133823495674979580 1
+69C:\Users\prakk\Desktop\Project\Natours\node_modules\lmdb\dependencies133823495792969040 1
 105C:\Users\prakk\Desktop\Project\Natours\node_modules\jsonwebtoken\node_modules\semver\functions\compare.js133821097347120566 0
 82C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\es7\reflect.js133823496035242760 0
 61C:\Users\prakk\Desktop\Project\Natours\node_modules\lmdb\dict133823495806641573 1
@@ -8022,7 +8022,7 @@
 77C:\Users\prakk\Desktop\Project\Natours\node_modules\lmdb\dependencies\lz4\lib133823495801694940 1
 83C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\modules\_has.js133823495764717059 0
 81C:\Users\prakk\Desktop\Project\Natours\node_modules\lmdb\dependencies\lz4\LICENSE133823495684131665 0
-81C:\Users\prakk\Desktop\Project\Natours\node_modules\lmdb\dependencies\lz4\lib\dll133823495704511589 1
+81C:\Users\prakk\Desktop\Project\Natours\node_modules\lmdb\dependencies\lz4\lib\dll133823495781394418 1
 122C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\core\test\fixtures\invalid-target-source-not-file\src\index.js133823495780964371 0
 94C:\Users\prakk\Desktop\Project\Natours\node_modules\lmdb\dependencies\lz4\lib\liblz4-dll.rc.in133823495794159077 0
 93C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\packager-html\lib\HTMLPackager.js133823495674899565 0
@@ -8309,7 +8309,7 @@
 100C:\Users\prakk\Desktop\Project\Natours\node_modules\jsonwebtoken\node_modules\semver\ranges\valid.js133821097347880557 0
 73C:\Users\prakk\Desktop\Project\Natours\node_modules\.bin\browserslist.ps1133823496100881120 0
 106C:\Users\prakk\Desktop\Project\Natours\node_modules\jsonwebtoken\node_modules\semver\internal\constants.js133821097347150557 0
-71C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\weak-set133823496005630938 1
+71C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\weak-set133823496022508401 1
 93C:\Users\prakk\Desktop\Project\Natours\node_modules\@types\node\compatibility\disposable.d.ts133823495761647492 0
 102C:\Users\prakk\Desktop\Project\Natours\node_modules\jsonwebtoken\node_modules\semver\internal\debug.js133821097347160582 0
 83C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\regions\PH.js133823495950185175 0
@@ -8351,7 +8351,7 @@
 83C:\Users\prakk\Desktop\Project\Natours\node_modules\jsonwebtoken\lib\psSupported.js133821097347100625 0
 93C:\Users\prakk\Desktop\Project\Natours\node_modules\jsonwebtoken\lib\validateAsymmetricKey.js133821097347180588 0
 61C:\Users\prakk\Desktop\Project\Natours\node_modules\json5\lib133823495706859884 1
-77C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\watcher\src\linux133823495673423094 1
+77C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\watcher\src\linux133823495730130443 1
 68C:\Users\prakk\Desktop\Project\Natours\node_modules\json5\LICENSE.md133823495671574189 0
 70C:\Users\prakk\Desktop\Project\Natours\node_modules\json5\package.json133823495666676784 0
 67C:\Users\prakk\Desktop\Project\Natours\node_modules\json5\README.md133823495673832082 0
@@ -8378,7 +8378,7 @@
 77C:\Users\prakk\Desktop\Project\Natours\node_modules\js-stringify\package.json133823447529423276 0
 82C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\_object-pie.js133823495813543331 0
 74C:\Users\prakk\Desktop\Project\Natours\node_modules\js-stringify\README.md133823447533543847 0
-69C:\Users\prakk\Desktop\Project\Natours\node_modules\js-stringify\test133823447537780644 1
+69C:\Users\prakk\Desktop\Project\Natours\node_modules\js-stringify\test133823447538240934 1
 88C:\Users\prakk\Desktop\Project\Natours\node_modules\delayed-stream\lib\delayed_stream.js133823495636283458 0
 78C:\Users\prakk\Desktop\Project\Natours\node_modules\js-stringify\test\index.js133823447538380912 0
 68C:\Users\prakk\Desktop\Project\Natours\node_modules\isexe\.npmignore133815223233517190 0
@@ -8798,7 +8798,7 @@
 108C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-posthtml\node_modules\semver\LICENSE133823495609126633 0
 97C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\utils\node_modules\chalk\package.json133823495634247622 0
 83C:\Users\prakk\Desktop\Project\Natours\node_modules\es-define-property\CHANGELOG.md133823495644309561 0
-75C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\library133823495957097606 1
+75C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\library133823496058273259 1
 114C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\node-resolver-core\node_modules\semver\functions\gt.js133823495672766034 0
 89C:\Users\prakk\Desktop\Project\Natours\node_modules\@swc\helpers\_\_ts_param\package.json133823495890776734 0
 79C:\Users\prakk\Desktop\Project\Natours\node_modules\entities\maps\entities.json133823495657519978 0
@@ -8871,7 +8871,7 @@
 89C:\Users\prakk\Desktop\Project\Natours\node_modules\@swc\helpers\cjs\_super_prop_base.cjs133823495758687791 0
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\domhandler\package.json133823495608770338 0
 72C:\Users\prakk\Desktop\Project\Natours\node_modules\domhandler\readme.md133823495631168468 0
-67C:\Users\prakk\Desktop\Project\Natours\node_modules\domhandler\test133823495644349555 1
+67C:\Users\prakk\Desktop\Project\Natours\node_modules\domhandler\test133823495728917995 1
 100C:\Users\prakk\Desktop\Project\Natours\node_modules\@swc\helpers\src\_class_apply_descriptor_get.mjs133823495896196291 0
 73C:\Users\prakk\Desktop\Project\Natours\node_modules\domhandler\test\cases133823495727309883 1
 76C:\Users\prakk\Desktop\Project\Natours\node_modules\domhandler\test\tests.js133823495729129394 0
@@ -8892,7 +8892,7 @@
 74C:\Users\prakk\Desktop\Project\Natours\node_modules\color-convert\index.js133815223142916948 0
 87C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\es6.string.fixed.js133823495961319310 0
 102C:\Users\prakk\Desktop\Project\Natours\node_modules\domhandler\test\cases\21-conditional_comments.json133823495722260487 0
-68C:\Users\prakk\Desktop\Project\Natours\controllers\userController.js133822711114602126 0
+68C:\Users\prakk\Desktop\Project\Natours\controllers\userController.js133823511512763539 0
 100C:\Users\prakk\Desktop\Project\Natours\node_modules\domhandler\test\cases\24-with-start-indices.json133823495726466348 0
 98C:\Users\prakk\Desktop\Project\Natours\node_modules\domhandler\test\cases\25-with-end-indices.json133823495727801377 0
 77C:\Users\prakk\Desktop\Project\Natours\node_modules\domhandler\lib\element.js133823495636273489 0
@@ -8989,7 +8989,7 @@
 91C:\Users\prakk\Desktop\Project\Natours\node_modules\cross-env\node_modules\path-key\license133823495609291980 0
 95C:\Users\prakk\Desktop\Project\Natours\node_modules\cross-env\node_modules\cross-spawn\index.js133823495629426695 0
 89C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\features\dataset.js133823495865091544 0
-90C:\Users\prakk\Desktop\Project\Natours\node_modules\cross-env\node_modules\cross-spawn\lib133823495617343144 1
+90C:\Users\prakk\Desktop\Project\Natours\node_modules\cross-env\node_modules\cross-spawn\lib133823495633150542 1
 94C:\Users\prakk\Desktop\Project\Natours\node_modules\cross-env\node_modules\cross-spawn\LICENSE133823495609261956 0
 82C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\client\core.min.js.map133823496061171177 0
 99C:\Users\prakk\Desktop\Project\Natours\node_modules\cross-env\node_modules\cross-spawn\package.json133823495645591222 0
@@ -9000,7 +9000,7 @@
 94C:\Users\prakk\Desktop\Project\Natours\node_modules\cross-env\node_modules\.bin\node-which.ps1133823496100871167 0
 71C:\Users\prakk\Desktop\Project\Natours\node_modules\cosmiconfig\LICENSE133823495628881271 0
 74C:\Users\prakk\Desktop\Project\Natours\dev-data\templates\tourTemplate.pug133812257954800341 0
-76C:\Users\prakk\Desktop\Project\Natours\node_modules\cosmiconfig\node_modules133823495577363643 1
+76C:\Users\prakk\Desktop\Project\Natours\node_modules\cosmiconfig\node_modules133823496100064001 1
 99C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\library\es6.object.to-string.js133823495949047179 0
 84C:\Users\prakk\Desktop\Project\Natours\node_modules\cosmiconfig\node_modules\js-yaml133823495732167180 1
 89C:\Users\prakk\Desktop\Project\Natours\node_modules\cosmiconfig\node_modules\js-yaml\dist133823495732950629 1
@@ -9066,14 +9066,14 @@
 80C:\Users\prakk\Desktop\Project\Natours\node_modules\cosmiconfig\dist\util.js.map133823495744714097 0
 96C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\core.string.unescape-html.js133823495898716811 0
 76C:\Users\prakk\Desktop\Project\Natours\node_modules\core-util-is\lib\util.js133823495614508894 0
-66C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\client133823496061221191 1
+66C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\client133823496061875624 1
 64C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\core133823496047119256 1
 84C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\packager-js\src\index.js133823495724604317 0
 97C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\runtime-js\src\helpers\cacheLoader.js133823495687292603 0
-63C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\es5133823496002705459 1
+63C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\es5133823496002735475 1
 113C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-babel\node_modules\semver\functions\eq.js133823495668747659 0
 63C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\es6133823496057075551 1
-63C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\es7133823496056754377 1
+63C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\es7133823496057125572 1
 72C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\Gruntfile.js133823495999924380 0
 67C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules133823496059141545 1
 65C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\stage133823496028728362 1
@@ -9187,7 +9187,7 @@
 86C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\es7.map.to-json.js133823495979316244 0
 85C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\es7.math.clamp.js133823495979456220 0
 85C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\es7.math.iaddh.js133823495980282925 0
-68C:\Users\prakk\Desktop\Project\Natours\controllers\tourController.js133822711009084920 0
+68C:\Users\prakk\Desktop\Project\Natours\controllers\tourController.js133823511413045894 0
 87C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\es7.math.radians.js133823495981023329 0
 88C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\array\virtual\flat-map.js133823495994052229 0
 85C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\es7.math.scale.js133823495981213724 0
@@ -9280,7 +9280,7 @@
 108C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\modules\es6.object.prevent-extensions.js133823495948062602 0
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\_uid.js133823495859437545 0
 79C:\Users\prakk\Desktop\Project\Natours\node_modules\constantinople\lib\index.js133823447544304772 0
-72C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\core133823496035525411 1
+72C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\core133823496047289224 1
 86C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\regexp\flags.js133823495993694005 0
 82C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\_wks-define.js133823495861841491 0
 97C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\library\es6.date.to-string.js133823495928723038 0
@@ -9295,12 +9295,12 @@
 84C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\library\_path.js133823495824149548 0
 88C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\library\_redefine.js133823495831283342 0
 91C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\modules\library\_set-species.js133823495838522353 0
-71C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\es5133823496005939962 1
+71C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\es5133823496005962385 1
 114C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\node-resolver-core\node_modules\semver\ranges\valid.js133823495746796678 0
-71C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\es7133823496056955580 1
+71C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\es7133823496057390600 1
 76C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\index.js133823496008321020 0
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\shim.js133823496043174236 0
-71C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\web133823496008421008 1
+71C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\web133823496048629259 1
 84C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\web\immediate.js133823496001059836 0
 81C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\web\timers.js133823496048649276 0
 78C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\stage\0.js133823495864081560 0
@@ -9310,7 +9310,7 @@
 78C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\stage\4.js133823495865271547 0
 82C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\stage\index.js133823496008360973 0
 89C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\modules\core.delay.js133823495892005616 0
-71C:\Users\prakk\Desktop\Project\Natours\node_modules\constantinople\test133823447547627547 1
+71C:\Users\prakk\Desktop\Project\Natours\node_modules\constantinople\test133823447547940176 1
 88C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\modules\core.dict.js133823495892282987 0
 96C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\modules\core.get-iterator.js133823495893168735 0
 76C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\math\trunc.js133823496053592769 0
@@ -9513,16 +9513,16 @@
 93C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\get-iterator-method.js133823495997536601 0
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\json133823496047509232 1
 122C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-posthtml\node_modules\semver\ranges\min-version.js133823495723554340 0
-74C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\map133823496007114704 1
-75C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\math133823496053622785 1
-82C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\core\node_modules\.bin133823496100033948 1
+74C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\map133823496022978373 1
+75C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\math133823496054830561 1
+82C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\core\node_modules\.bin133823496100223915 1
 83C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\runtime-browser-hmr\lib133823495684934244 1
-77C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\object133823496039624348 1
+77C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\object133823496056539272 1
 85C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\parse-float.js133823496025408403 0
 73C:\Users\prakk\Desktop\Project\Natours\node_modules\buffer-from\readme.md133823495622423609 0
 81C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\promise.js133823496031753716 0
-78C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\reflect133823496039714374 1
-74C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\set133823496007690989 1
+78C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\reflect133823496042158390 1
+74C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\set133823496023038375 1
 86C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\set-interval.js133823496039134774 0
 77C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\string133823496055177666 1
 82C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\library\fn\weak-map.js133823496057035492 0
@@ -9725,11 +9725,11 @@
 77C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\set-timeout.js133823496039934378 0
 81C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\clear-immediate.js133823495887682641 0
 78C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\dom-collections133823496012705502 1
-71C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\function133823496018218353 1
+71C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\function133823496026418347 1
 77C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\is-iterable.js133823496011585555 0
 67C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\json133823496047469240 1
 69C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\map.js133823496016238378 0
-67C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\math133823496053572793 1
+67C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\math133823496054758077 1
 88C:\Users\prakk\Desktop\Project\Natours\node_modules\body-parser\node_modules\on-finished133823495631098421 1
 69C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\number133823496049179254 1
 69C:\Users\prakk\Desktop\Project\Natours\node_modules\core-js\fn\object133823496056309120 1
@@ -10034,7 +10034,7 @@
 70C:\Users\prakk\Desktop\Project\Natours\node_modules\clone\package.json133823495608728223 0
 67C:\Users\prakk\Desktop\Project\Natours\node_modules\clone\README.md133823495617476633 0
 81C:\Users\prakk\Desktop\Project\Natours\node_modules\chrome-trace-event\CHANGES.md133823495630056662 0
-75C:\Users\prakk\Desktop\Project\Natours\node_modules\chrome-trace-event\dist133823495616017208 1
+75C:\Users\prakk\Desktop\Project\Natours\node_modules\chrome-trace-event\dist133823495637088579 1
 83C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\regions\SY.js133823495976458585 0
 83C:\Users\prakk\Desktop\Project\Natours\node_modules\chrome-trace-event\package.json133823495621293165 0
 80C:\Users\prakk\Desktop\Project\Natours\node_modules\chrome-trace-event\README.md133823495634714258 0
@@ -10070,7 +10070,7 @@
 100C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\markdown-ansi\node_modules\chalk\license133823495609096659 0
 116C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\node-resolver-core\node_modules\semver\ranges\outside.js133823495728022044 0
 99C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\features\rtcpeerconnection.js133823495957097606 0
-77C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\regions133823495991698872 1
+77C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\regions133823495991855794 1
 83C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\regions\AD.js133823495644479601 0
 104C:\Users\prakk\Desktop\Project\Natours\node_modules\@babel\types\lib\retrievers\getBindingIdentifiers.js133823447585338811 0
 83C:\Users\prakk\Desktop\Project\Natours\node_modules\caniuse-lite\data\regions\AE.js133823495652088996 0
@@ -10708,7 +10708,7 @@
 71C:\Users\prakk\Desktop\Project\Natours\node_modules\busboy\package.json133823495680882613 0
 68C:\Users\prakk\Desktop\Project\Natours\node_modules\busboy\README.md133823495634609665 0
 96C:\Users\prakk\Desktop\Project\Natours\node_modules\busboy\test\test-types-multipart-charsets.js133823495698653219 0
-77C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\watcher\src\macos133823495661303372 1
+77C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\watcher\src\macos133823495728407956 1
 87C:\Users\prakk\Desktop\Project\Natours\node_modules\busboy\test\test-types-multipart.js133823495707039863 0
 88C:\Users\prakk\Desktop\Project\Natours\node_modules\busboy\test\test-types-urlencoded.js133823495711889853 0
 71C:\Users\prakk\Desktop\Project\Natours\node_modules\busboy\test\test.js133823495715472515 0
@@ -10898,7 +10898,7 @@
 79C:\Users\prakk\Desktop\Project\Natours\node_modules\axios\dist\axios.min.js.map133823495781324587 0
 70C:\Users\prakk\Desktop\Project\Natours\node_modules\axios\dist\browser133823495762267397 1
 72C:\Users\prakk\Desktop\Project\Natours\node_modules\asap\browser-asap.js133823447534566701 0
-67C:\Users\prakk\Desktop\Project\Natours\node_modules\axios\dist\node133823495634038623 1
+67C:\Users\prakk\Desktop\Project\Natours\node_modules\axios\dist\node133823495770760257 1
 81C:\Users\prakk\Desktop\Project\Natours\node_modules\axios\dist\node\axios.cjs.map133823495772348696 0
 92C:\Users\prakk\Desktop\Project\Natours\node_modules\@babel\types\lib\definitions\core.js.map133823447579846677 0
 79C:\Users\prakk\Desktop\Project\Natours\node_modules\axios\dist\esm\axios.js.map133823495776716931 0
@@ -11474,7 +11474,7 @@
 78C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\watcher\wrapper.js133823495741468527 0
 82C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\watcher\src\binding.cc133823495634774263 0
 80C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\watcher\src\Event.hh133823495727631291 0
-78C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\watcher\src\shared133823495638172166 1
+78C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\watcher\src\shared133823495721958164 1
 76C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\watcher\src\wasm133823495734683114 1
 82C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\watcher\src\Watcher.cc133823495689756826 0
 82C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\watcher\src\Watcher.hh133823495736055187 0
@@ -11586,7 +11586,7 @@
 105C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\rust\parcel-node-bindings.win32-x64-msvc.node133823496099044083 0
 69C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\types\src133823495639512164 1
 78C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\types\src\index.js133823495640667852 0
-88C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-svg\node_modules133823495577182209 1
+88C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-svg\node_modules133823496100053924 1
 88C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-svg\package.json133823495684131665 0
 80C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-svg\test133823495674632947 1
 95C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-svg\src\dependencies.js133823495664481360 0
@@ -11634,7 +11634,7 @@
 113C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-react-refresh-wrap\lib\helpers\helpers.js133823495648960451 0
 84C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-posthtml\lib133823495662655019 1
 88C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-posthtml\LICENSE133823495646001202 0
-93C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-posthtml\node_modules133823495577202155 1
+93C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-posthtml\node_modules133823496100053924 1
 99C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-posthtml\src\loadPlugins.js133823495658934266 0
 107C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-posthtml\src\PostHTMLTransformer.js133823495666330983 0
 98C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-posthtml\node_modules\.bin133823496100311397 1
@@ -11726,7 +11726,7 @@
 78C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-js\lib133823495671044229 1
 102C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\reporter-cli\node_modules\has-flag\license133823495626201223 0
 82C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-js\LICENSE133823495657719867 0
-87C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-js\node_modules133823495577332173 1
+87C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-js\node_modules133823496100033948 1
 78C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-js\src133823495674682932 1
 98C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-js\src\esmodule-helpers.js133823495667316475 0
 95C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-js\src\JSTransformer.js133823495677498983 0
@@ -11773,7 +11773,7 @@
 101C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-image\lib\ImageTransformer.js133823495663951341 0
 94C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-image\lib\loadSharp.js133823495671952722 0
 80C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-html\lib133823495678537762 1
-89C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-html\node_modules133823495577332173 1
+89C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-html\node_modules133823496100043967 1
 94C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-html\node_modules\.bin133823496100281046 1
 96C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-html\node_modules\srcset133823495714359184 1
 107C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\transformer-html\node_modules\srcset\index.d.ts133823495715572589 0
@@ -12068,7 +12068,7 @@
 106C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\package-manager\src\validateModuleSpecifier.js133823495746560792 0
 101C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\core\node_modules\semver\functions\gte.js133823495674792901 0
 87C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\package-manager\src\Yarn.js133823495747831557 0
-93C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\package-manager\node_modules\.bin133823496100033948 1
+93C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\package-manager\node_modules\.bin133823496100331298 1
 103C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\package-manager\node_modules\semver\classes133823495739165246 1
 105C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\package-manager\node_modules\semver\functions133823495745924512 1
 103C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\package-manager\node_modules\semver\LICENSE133823495609192049 0
@@ -12406,7 +12406,7 @@
 95C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\compressor-raw\src\RawCompressor.js133823495703745786 0
 77C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\codeframe\LICENSE133823495623091091 0
 82C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\codeframe\package.json133823495732437169 0
-74C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\codeframe\test133823495630166746 1
+74C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\codeframe\test133823495731353388 1
 92C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\codeframe\test\codeframe.test.js133823495731677182 0
 83C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\codeframe\test\fixtures133823495632447268 1
 86C:\Users\prakk\Desktop\Project\Natours\node_modules\@parcel\codeframe\src\codeframe.js133823495730240338 0
@@ -12595,7 +12595,7 @@
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\@babel\parser\index.cjs133823447536767125 0
 69C:\Users\prakk\Desktop\Project\Natours\node_modules\@babel\parser\lib133823447548351588 1
 75C:\Users\prakk\Desktop\Project\Natours\node_modules\@babel\parser\README.md133823447534566701 0
-73C:\Users\prakk\Desktop\Project\Natours\node_modules\@babel\parser\typings133823447556918045 1
+73C:\Users\prakk\Desktop\Project\Natours\node_modules\@babel\parser\typings133823447556998073 1
 91C:\Users\prakk\Desktop\Project\Natours\node_modules\@babel\parser\typings\babel-parser.d.ts133823447557290496 0
 85C:\Users\prakk\Desktop\Project\Natours\node_modules\@babel\parser\bin\babel-parser.js133823447535303486 0
 72C:\Users\prakk\Desktop\Project\Natours\node_modules\@babel\highlight\lib133815223242886158 1
@@ -12648,4 +12648,4 @@
 66C:\Users\prakk\Desktop\Project\Natours\dev-data\img\new-tour-3.jpg133812257953050301 0
 70C:\Users\prakk\Desktop\Project\Natours\dev-data\data\tours-simple.json133812257950452976 0
 63C:\Users\prakk\Desktop\Project\Natours\dev-data\data\users.json133812257951021918 0
-68C:\Users\prakk\Desktop\Project\Natours\controllers\authController.js133823474475926815 0
+68C:\Users\prakk\Desktop\Project\Natours\controllers\authController.js133823510994360465 0

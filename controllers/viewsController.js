@@ -34,16 +34,12 @@ exports.getTour = catchAsync(async (req, res, next) => {
   });
 });
 
-exports.getLoginForm = catchAsync(async (req, res) => {
-    res.status(200)
-        .set(
-            'Content-Security-Policy',
-            "script-src 'self' https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js 'unsafe-inline' 'unsafe-eval';"
-        )
-        .render('login', {
-        title: 'Log into your account'
-    });
-});
+exports.getLoginForm = (req, res) => {
+  res.status(200).render('login', {
+    title: 'Log into your account'
+  });
+};
+
 exports.getAccount = (req, res) => {
   res.status(200).render('account', {
     title: 'Your account'

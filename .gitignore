@@ -1,48 +1,54 @@
-# Node.js dependencies
+# Node.js
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+npm-debug.log
+yarn-error.log
 
-# Environment variables
-.env
-
-# Logs
-logs
+# Java
+*.class
+*.jar
+*.war
+*.ear
 *.log
-logs/*.log
-debug.log
 
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
+# IDEs
+.idea/
+.vscode/
+*.iml
 
-# OS-specific files
+# OS files
 .DS_Store
 Thumbs.db
 
-# IDE-specific files
-.idea/
-.vscode/
-*.swp
+# Log files
+*.log
 
-# Build outputs
-dist/
+# Build directories
 build/
+dist/
+out/
 
 # Temporary files
-*.tmp
-*.temp
-
-# Coverage reports
-coverage/
-
-# Production
-.env.production
-.env.local
-
-# Others
+*.swp
+*.swo
 *.bak
+*.tmp
 *.orig
+
+# JavaScript/TypeScript build outputs
+*.map
+*.bundle.js
+
+# Package-lock files
+package-lock.json
+
+# TailwindCSS build directory
+.tailwind/
+
+# Vite
+vite.config.ts
+
+# React
+public/build/
+
+.data.mdb
+

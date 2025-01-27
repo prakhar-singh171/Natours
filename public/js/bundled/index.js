@@ -597,14 +597,20 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"f2QDv":[function(require,module,exports,__globalThis) {
 /* eslint-disable */ var _polyfill = require("@babel/polyfill");
+var _leaflet = require("./leaflet");
 var _login = require("./login");
 var _updateSettings = require("./updateSettings");
 // DOM ELEMENTS
+const mapBox = document.getElementById('map');
 const loginForm = document.querySelector('.form--login');
 const logOutBtn = document.querySelector('.nav__el--logout');
 const userDataForm = document.querySelector('.form-user-data');
 const userPasswordForm = document.querySelector('.form-user-password');
 // DELEGATION
+if (mapBox) {
+    const locations = JSON.parse(mapBox.dataset.locations);
+    (0, _leaflet.displayMap)(locations);
+}
 if (loginForm) loginForm.addEventListener('submit', (e)=>{
     e.preventDefault();
     const email = document.getElementById('email').value;
@@ -638,7 +644,7 @@ if (userPasswordForm) userPasswordForm.addEventListener('submit', async (e)=>{
     document.getElementById('password-confirm').value = '';
 });
 
-},{"@babel/polyfill":"dTCHC","./login":"7yHem","./updateSettings":"l3cGY"}],"dTCHC":[function(require,module,exports,__globalThis) {
+},{"@babel/polyfill":"dTCHC","./login":"7yHem","./updateSettings":"l3cGY","./leaflet":"xvuTT"}],"dTCHC":[function(require,module,exports,__globalThis) {
 "use strict";
 require("f50de0aa433a589b");
 var _global = _interopRequireDefault(require("4142986752a079d4"));
@@ -12646,6 +12652,36 @@ const updateSettings = async (data, type)=>{
     }
 };
 
-},{"axios":"jo6P5","./alerts":"6Mcnf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["2dtHH","f2QDv"], "f2QDv", "parcelRequire94c2")
+},{"axios":"jo6P5","./alerts":"6Mcnf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"xvuTT":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "displayMap", ()=>displayMap);
+const displayMap = (locations)=>{
+    console.log(locations);
+    var map = L.map('map', {
+        zoomControl: false
+    });
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+    const points = [];
+    locations.forEach((loc)=>{
+        points.push([
+            loc.coordinates[1],
+            loc.coordinates[0]
+        ]);
+        L.marker([
+            loc.coordinates[1],
+            loc.coordinates[0]
+        ]).addTo(map).bindPopup(`<p>Day ${loc.day}: ${loc.description}</p>`, {
+            autoClose: false
+        }).openPopup();
+    });
+    const bounds = L.latLngBounds(points).pad(0.5);
+    map.fitBounds(bounds);
+    map.scrollWheelZoom.disable();
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["2dtHH","f2QDv"], "f2QDv", "parcelRequire94c2")
 
 //# sourceMappingURL=index.js.map

@@ -6,40 +6,42 @@ const catchAsync = require('../utils/catchAsync');
 const factory = require('./handlerFactory');
 
 exports.getCheckoutSession = catchAsync(async (req, res, next) => {
-  // 1) Get the currently booked tour
-  const tour = await Tour.findById(req.params.tourId);
-  // console.log(tour);
-
-  // 2) Create checkout session
-  const session = await stripe.checkout.sessions.create({
-    payment_method_types: ['card'],
-    // success_url: `${req.protocol}://${req.get('host')}/my-tours/?tour=${
-    //   req.params.tourId
-    // }&user=${req.user.id}&price=${tour.price}`,
-    success_url: `${req.protocol}://${req.get('host')}/my-tours?alert=booking`,
-    cancel_url: `${req.protocol}://${req.get('host')}/tour/${tour.slug}`,
-    customer_email: req.user.email,
-    client_reference_id: req.params.tourId,
-    line_items: [
-      {
-        name: `${tour.name} Tour`,
-        description: tour.summary,
-        images: [
-          `${req.protocol}://${req.get('host')}/img/tours/${tour.imageCover}`
-        ],
-        amount: tour.price * 100,
-        currency: 'usd',
-        quantity: 1
-      }
-    ]
+    // 1) Get the currently booked tour
+    const tour = await Tour.findById(req.params.tourId);
+  
+    // 2) Create checkout session
+    const session = await stripe.checkout.sessions.create({
+      payment_method_types: ['card'],
+      success_url: `${req.protocol}://${req.get('host')}/my-tours?alert=booking`,
+      cancel_url: `${req.protocol}://${req.get('host')}/tour/${tour.slug}`,
+      customer_email: req.user.email,
+      client_reference_id: req.params.tourId,
+      line_items: [
+        {
+          price_data: {
+            currency: 'usd', // Specify your currency
+            product_data: {
+              name: `${tour.name} Tour`, // Dynamic product name
+              description: tour.summary, // Dynamic description
+              images: [
+                `${req.protocol}://${req.get('host')}/img/tours/${tour.imageCover}`
+              ], // Dynamic image URL
+            },
+            unit_amount: tour.price * 100, // Price in cents
+          },
+          quantity: 1, // Quantity of the product
+        },
+      ],
+      mode: 'payment', // Specify the payment mode
+    });
+  
+    // 3) Create session as response
+    res.status(200).json({
+      status: 'success',
+      session,
+    });
   });
-
-  // 3) Create session as response
-  res.status(200).json({
-    status: 'success',
-    session
-  });
-});
+  
 
 const createBookingCheckout = async session => {
   const tour = session.client_reference_id;

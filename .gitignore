@@ -52,3 +52,6 @@ public/build/
 
 .data.mdb
 
+.parcel-cache/
+public/js/bundled/
+

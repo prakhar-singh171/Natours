@@ -15,6 +15,7 @@ const tourRouter = require('./routes/tourRoutes');
 const userRouter = require('./routes/userRoutes');
 const reviewRouter = require('./routes/reviewRoutes');
 const viewRouter = require('./routes/viewRoutes');
+const bookingRouter = require('./routes/bookingRoutes');
 
 const app = express();
 
@@ -50,10 +51,15 @@ app.use(
           ],
         scriptSrc: [
           "'self'", 
+          "https://js.stripe.com",
           "https://cdn.jsdelivr.net", // Existing source
           "https://unpkg.com",
           "'unsafe-eval'",
           //  // Allow unpkg as a source for Leaflet
+        ],
+        frameSrc: [
+          "'self'", 
+          "https://js.stripe.com", // Allow Stripe to be framed
         ],
         styleSrc: ["'self'", "'unsafe-inline'", "https://unpkg.com"],
         
@@ -117,6 +123,7 @@ app.use('/', viewRouter);
 app.use('/api/v1/tours', tourRouter);
 app.use('/api/v1/users', userRouter);
 app.use('/api/v1/reviews', reviewRouter);
+app.use('/api/v1/bookings', bookingRouter);
 
 app.all('*', (req, res, next) => {
   next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));

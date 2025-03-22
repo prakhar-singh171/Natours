@@ -7,72 +7,72 @@ const mongoSanitize = require('express-mongo-sanitize');
 const xss = require('xss-clean');
 const hpp = require('hpp');
 const cookieParser = require('cookie-parser');
-const cors = require('cors');
 
 const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorController');
 const tourRouter = require('./routes/tourRoutes');
 const userRouter = require('./routes/userRoutes');
 const reviewRouter = require('./routes/reviewRoutes');
-const viewRouter = require('./routes/viewRoutes');
 const bookingRouter = require('./routes/bookingRoutes');
+const viewRouter = require('./routes/viewRoutes');
 
 const app = express();
-
-app.use(
-  cors({
-    origin: '*'
-  })
-);
-
-app.options('*', cors());
 
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
 
+const cors = require('cors');
+
+// Enable CORS for all routes
+app.use(
+  cors({
+    origin: 'http://localhost:8000', // Allow requests from this origin
+    credentials: true, // Allow cookies and other credentials
+  })
+);
+
 // 1) GLOBAL MIDDLEWARES
+
 // Serving static files
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Set security HTTP headers
-app.use(helmet());
+if (process.env.NODE_ENV === 'development') {
+  app.use((req, res, next) => {
+    res.removeHeader('Content-Security-Policy');
+    next();
+  });
+}
+
+
 app.use(
-    helmet.contentSecurityPolicy({
+  helmet({
+    contentSecurityPolicy: {
       directives: {
-        imgSrc: [
-            "'self'",
-            "data:",
-            "blob:",
-            "https://tile.openstreetmap.org",
-            "https://a.tile.openstreetmap.org",
-            "https://b.tile.openstreetmap.org",
-            "https://c.tile.openstreetmap.org",
-            "https://unpkg.com", // If required
-          ],
-        scriptSrc: [
-          "'self'", 
-          "https://js.stripe.com",
-          "https://cdn.jsdelivr.net", // Existing source
-          "https://unpkg.com",
-          "'unsafe-eval'",
-          //  // Allow unpkg as a source for Leaflet
+        defaultSrc: ["'self'"],
+        scriptSrc: ["'self'", "ws://localhost:1234"],
+        connectSrc: [
+          "'self'",
+          "ws://127.0.0.1:1234",
+          "ws://localhost:1234",
+          "ws://127.0.0.1:54817",
+          "ws://localhost:57399",
+          "https://tile.openstreetmap.org",
         ],
-        frameSrc: [
-          "'self'", 
-          "https://js.stripe.com", // Allow Stripe to be framed
-        ],
-        styleSrc: ["'self'", "'unsafe-inline'", "https://unpkg.com"],
-        
-          connectSrc: [
-            "'self'", 
-            "ws://127.0.0.1:1234", // Allow WebSocket connection
-           "https://tile.openstreetmap.org", // Other allowed connections
-          ]
-         
-        // Other directives...
       },
-    })
-  );
+    },
+  })
+);
+
+
+// Disable CSP temporarily in development mode for debugging purposes
+if (process.env.NODE_ENV === 'development') {
+  app.use((req, res, next) => {
+    res.removeHeader('Content-Security-Policy');
+    next();
+  });
+}
+
 // Development logging
 if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
@@ -82,7 +82,7 @@ if (process.env.NODE_ENV === 'development') {
 const limiter = rateLimit({
   max: 100,
   windowMs: 60 * 60 * 1000,
-  message: 'Too many requests from this IP, please try again in an hour!'
+  message: 'Too many requests from this IP, please try again in an hour!',
 });
 app.use('/api', limiter);
 
@@ -99,22 +99,21 @@ app.use(xss());
 
 // Prevent parameter pollution
 app.use(
-  hpp({
-    whitelist: [
-      'duration',
-      'ratingsQuantity',
-      'ratingsAverage',
-      'maxGroupSize',
-      'difficulty',
-      'price'
-    ]
-  })
+hpp({
+  whitelist: [
+    'duration',
+    'ratingsQuantity',
+    'ratingsAverage',
+    'maxGroupSize',
+    'difficulty',
+    'price',
+  ],
+})
 );
 
 // Test middleware
 app.use((req, res, next) => {
   req.requestTime = new Date().toISOString();
-  // console.log(req.cookies);
   next();
 });
 
@@ -129,6 +128,7 @@ app.all('*', (req, res, next) => {
   next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
 });
 
+// Global error handling middleware
 app.use(globalErrorHandler);
 
 module.exports = app;

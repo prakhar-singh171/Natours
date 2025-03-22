@@ -2,9 +2,9 @@ extends base
 include _reviewCard
 
 block append head
-   link(rel='stylesheet' href='https://unpkg.com/leaflet@1.6.0/dist/leaflet.css')
-   script(src='https://unpkg.com/leaflet@1.6.0/dist/leaflet.js')
-   script(src="/js/bundled/index.js" type="module" defer)
+  link(rel='stylesheet' href='https://unpkg.com/leaflet@1.6.0/dist/leaflet.css')
+  script(src='https://unpkg.com/leaflet@1.6.0/dist/leaflet.js')
+  script(src="/js/bundle.js" type="module" defer)
 
 mixin overviewBox(label, text, icon)
   .overview-box__detail
@@ -39,6 +39,7 @@ block content
           h2.heading-secondary.ma-bt-lg Quick facts
 
           - const date = tour.startDates[0].toLocaleString('en-us', {month: 'long', year: 'numeric'})
+
           +overviewBox('Next date', date, 'calendar')
           +overviewBox('Difficulty', tour.difficulty, 'trending-up')
           +overviewBox('Participants', `${tour.maxGroupSize} people`, 'user')
@@ -59,8 +60,8 @@ block content
 
     .description-box
       h2.heading-secondary.ma-bt-lg= `About ${tour.name} tour`
-      - const parapraphs = tour.description.split('\n');
-      each p in parapraphs
+      - const paragraphs = tour.description.split('\n');
+      each p in paragraphs 
         p.description__text= p
 
   section.section-pictures
@@ -76,6 +77,7 @@ block content
       each review in tour.reviews
         +reviewCard(review)
 
+
   section.section-cta
     .cta
       .cta__img.cta__img--logo
@@ -85,8 +87,7 @@ block content
       .cta__content
         h2.heading-secondary What are you waiting for?
         p.cta__text= `${tour.duration} days. 1 adventure. Infinite memories. Make it yours today!`
-        
         if user
-          button.btn.btn--green.span-all-rows#book-tour(data-tour-id=`${tour.id}`) Book tour now
+          button.btn.btn--green.span-all-rows#book-tour(data-tour-id=`${tour.id}`) Book tour now!
         else
           a.btn.btn--green.span-all-rows(href='/login') Log in to book tour

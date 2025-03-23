@@ -5,6 +5,8 @@ import { login, logout } from './login';
 import { updateSettings } from './updateSettings';
 import { bookTour } from './stripe';
 import { showAlert } from './alerts';
+import { forgotPassword } from './forgotpassword.js';
+import { resetPassword } from './resetpassword';
 import { signup } from './signup';
 
 
@@ -16,7 +18,8 @@ const userDataForm = document.querySelector('.form-user-data');
 const userPasswordForm = document.querySelector('.form-user-password');
 const bookBtn = document.getElementById('book-tour');
 const signupForm = document.querySelector('.form--signup');
-
+const forgotPasswordFrom = document.querySelector('.form--forgotpassword');
+const resetPasswordForm = document.querySelector('.form--resetpassword');
 // DELEGATION
 if (mapBox) {
   const locations = JSON.parse(mapBox.dataset.locations);
@@ -82,5 +85,41 @@ if (userPasswordForm)
       bookTour(tourId);
     });
 
+    if (forgotPasswordFrom) {
+      forgotPasswordFrom.addEventListener('submit', async (e) => {
+        e.preventDefault();
+    
+        // Change button text while sending email
+        document.querySelector('.btn-forgot-password').innerText = 'Sending...';
+    
+        const email = document.getElementById('emailForgotPassword').value;
+        await forgotPassword(email);
+    
+        // Change button text after sending email
+        document.querySelector('.btn-forgot-password').innerText = 'Submit';
+      });
+    }
+    
+    // RESET PASSWORD
+    if (resetPasswordForm) {
+      resetPasswordForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+    
+        // Change button text while resetting password
+        document.querySelector('.btn--reset').innerText = 'Resetting...';
+    
+        const password = document.getElementById('passwordResetPassword').value;
+        const passwordConfirm = document.getElementById(
+          'passwordConfirmResetPassword'
+        ).value;
+        const resetToken = document.getElementById('resetToken').value;
+    
+        await resetPassword(password, passwordConfirm, resetToken);
+    
+        // Change button text after resetting password
+        document.querySelector('.btn--reset').innerText = 'Reset';
+      });
+    }
+    
     const alertMessage = document.querySelector('body').dataset.alert;
 if (alertMessage) showAlert('success', alertMessage, 20);

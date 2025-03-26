@@ -37,4 +37,3 @@ process.on('unhandledRejection', (error, promise) => {
     process.exit(1);
   });
 });
-

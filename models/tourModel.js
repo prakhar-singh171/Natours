@@ -170,6 +170,14 @@ tourSchema.pre(/^find/, function(next) {
     select: '-__v -passwordChangedAt'
   });
 
+  if (this.getQuery().slug) {
+    this.populate({
+      path: 'reviews',
+      select: '-__v'
+    });
+  }
+
+
   next();
 });
 

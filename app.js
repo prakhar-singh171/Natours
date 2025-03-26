@@ -17,13 +17,41 @@ const bookingRouter = require('./routes/bookingRoutes');
 const viewRouter = require('./routes/viewRoutes');
 
 const app = express();
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', 'http://localhost:5173');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PATCH, DELETE, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  res.header('Access-Control-Allow-Credentials', 'true');
+  
+  if (req.method === 'OPTIONS') {
+    return res.sendStatus(200);
+  }
 
-app.set('view engine', 'pug');
-app.set('views', path.join(__dirname, 'views'));
+  next();
+});
+
+const cors=require('cors')
+app.use(cors({
+  origin: 'http://localhost:5173', // Allow Vite development server
+  methods: ['GET', 'POST', 'PUT', 'DELETE','PATCH'], // Specify allowed methods
+}));
+// app.set('view engine', 'pug');
+// app.set('views', path.join(__dirname, 'views'));
+app.use((req, res, next) => {
+  console.log(`Request URL: ${req.originalUrl}`);
+  next();
+});
+app.use('/api/v1/img/tours',(req, res, next) => {
+  const resolvedPath = path.join(__dirname, 'public/img/tours', req.path);
+  console.log('Resolved static file path:', resolvedPath);
+  next();
+},express.static(path.join(__dirname, 'public/img/tours')));
+
 
 // 1) GLOBAL MIDDLEWARES
 // Serving static files
-app.use(express.static(path.join(__dirname, 'public')));
+// app.use(express.static(path.join(__dirname, 'public')));
+app.use('/api/v1/img/users', express.static(path.join(__dirname, 'public/img/users')));
 
 // Set security HTTP headers
 app.use(helmet());
@@ -111,7 +139,7 @@ app.use((req, res, next) => {
 
 // 3) ROUTES
 
-app.use('/', viewRouter);
+ app.use('/', viewRouter);
 app.use('/api/v1/tours', tourRouter);
 app.use('/api/v1/users', userRouter);
 app.use('/api/v1/reviews', reviewRouter);

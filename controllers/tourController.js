@@ -67,7 +67,27 @@ exports.aliasTopTours = (req, res, next) => {
 };
 
 exports.getAllTours = factory.getAll(Tour);
-exports.getTour = factory.getOne(Tour, { path: 'reviews' });
+exports.getTour = async (req, res) => {
+  try {
+    const slug = req.params.id.trim();
+    const tour = await Tour.findOne({ slug });
+    if (!tour) {
+      return res.status(404).json({ status: 'fail', message: 'Tour not found' });
+    }
+
+    res.status(200).json({
+      status: 'success',
+      data: {
+        tour,
+      },
+    });
+  } catch (error) {
+    res.status(400).json({
+      status: 'error',
+      message: error.message,
+    });
+  }
+};
 exports.createTour = factory.createOne(Tour);
 exports.updateTour = factory.updateOne(Tour);
 exports.deleteTour = factory.deleteOne(Tour);

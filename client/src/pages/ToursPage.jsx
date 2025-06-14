@@ -3,6 +3,7 @@ import axios from 'axios';
 import AuthContext from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import { toast } from "react-toastify";
+import { Box, Typography, Button, Grid } from '@mui/material';
 
 const ToursPage = () => {
   const [tours, setTours] = useState([]);
@@ -17,6 +18,7 @@ const ToursPage = () => {
         });
         setTours(response.data.data.data); // Adjust according to your API response
       } catch (error) {
+        toast.error('Error fetching tours');
         console.error('Error fetching tours:', error);
       }
     };
@@ -25,89 +27,196 @@ const ToursPage = () => {
   }, [backendUrl]);
 
   return (
-    <main className="bg-gradient-to-br from-blue-200 to-blue-500 p-10 min-h-screen">
-      <div className="container mx-auto">
-        <h1 className="text-center text-4xl text-white font-extrabold mb-10">
+    <Box
+      sx={{
+        minHeight: '100vh',
+        backgroundImage: "url('/bg.jpg')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'flex-start',
+        py: 8,
+        px: 2,
+      }}
+    >
+      <Box
+        sx={{
+          width: '100%',
+          maxWidth: 1200,
+          backdropFilter: 'blur(12px)',
+          backgroundColor: 'rgba(255, 255, 255, 0.1)',
+          borderRadius: 4,
+          boxShadow: '0 0 20px rgba(0,0,0,0.3)',
+          color: '#fff',
+          px: 4,
+          py: 6,
+        }}
+      >
+        <Typography
+          variant="h4"
+          fontWeight="bold"
+          mb={6}
+          textAlign="center"
+          sx={{ textShadow: '0 0 8px rgba(0,0,0,0.7)' }}
+        >
           Explore Our Tours
-        </h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        </Typography>
+
+        <Grid container spacing={4}>
           {tours.map((tour) => (
-            <div
-              key={tour.id}
-              className="relative rounded-lg shadow-lg overflow-hidden bg-white group transition-all duration-300 transform hover:scale-105"
-            >
-              {/* Card Image */}
-              <div className="w-full h-60 bg-cover bg-center group-hover:opacity-70"
-                style={{ backgroundImage: `url(/img/tours/${tour.imageCover})` }}>
-                <div className="absolute inset-0 bg-black opacity-40"></div>
-              </div>
+            <Grid item xs={12} sm={6} md={4} key={tour.id}>
+              <Box
+                sx={{
+                  borderRadius: 3,
+                  overflow: 'hidden',
+                  boxShadow: '0 4px 15px rgba(0,0,0,0.3)',
+                  backgroundColor: 'rgba(255, 255, 255, 0.15)',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  height: 420,   // fixed height for uniformity
+                  transition: 'transform 0.3s ease',
+                  '&:hover': {
+                    transform: 'scale(1.05)',
+                  },
+                }}
+              >
+                {/* Image */}
+                <Box
+                  sx={{
+                    height: 200, // fixed image height
+                    backgroundImage: `url(/img/tours/${tour.imageCover})`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    position: 'relative',
+                    flexShrink: 0,
+                  }}
+                >
+                  <Box
+                    sx={{
+                      position: 'absolute',
+                      inset: 0,
+                      backgroundColor: 'rgba(0, 0, 0, 0.4)',
+                    }}
+                  />
+                </Box>
 
-              {/* Card Content */}
-              <div className="relative p-6">
-                <h2 className="text-2xl font-semibold text-gray-800 mb-3">
-                  {tour.name}
-                </h2>
-                <p className="text-gray-600 text-sm mb-4">{tour.summary}</p>
-
-                <div className="flex flex-wrap items-center justify-between text-sm text-gray-700">
-                  <div className="flex items-center mb-2">
-                    <svg
-                      className="w-4 h-4 mr-2 text-green-500"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M12 8c1.333 0 4-1.333 4-4s-1.333-4-4-4-4 1.333-4 4 2.667 4 4 4z"
-                      />
-                    </svg>
-                    {tour.startLocation.description}
-                  </div>
-
-                  <div className="flex items-center mb-2">
-                    <svg
-                      className="w-4 h-4 mr-2 text-green-500"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M12 8c2 0 4-1.5 4-4s-2-4-4-4-4 1.5-4 4 2 4 4 4z"
-                      />
-                    </svg>
-                    {new Date(tour.startDates[0]).toLocaleString("en-us", {
-                      month: "long",
-                      year: "numeric",
-                    })}
-                  </div>
-                </div>
-
-                <div className="mt-6 flex justify-between items-center">
-                  <div className="text-xl text-green-600 font-semibold">
-                    ${tour.price}
-                    <span className="text-sm text-gray-500"> per person</span>
-                  </div>
-                  <button
-                    className="bg-green-600 text-white text-sm py-2 px-4 rounded-lg hover:bg-green-700 transition-colors duration-200"
-                    onClick={() => navigate(`/tour/${tour.slug}`)}
+                {/* Content */}
+                <Box sx={{ p: 3, flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
+                  <Typography
+                    variant="h6"
+                    fontWeight="600"
+                    mb={1}
+                    sx={{
+                      color: '#dcedc8',
+                      whiteSpace: 'nowrap',
+                      overflow: 'hidden',
+                      textOverflow: 'ellipsis',
+                    }}
+                    title={tour.name} // show full on hover
                   >
-                    View Details
-                  </button>
-                </div>
-              </div>
-            </div>
+                    {tour.name}
+                  </Typography>
+
+                  <Typography
+                    variant="body2"
+                    sx={{
+                      flexGrow: 1,
+                      color: 'rgba(255,255,255,0.8)',
+                      mb: 2,
+                      overflow: 'hidden',
+                      textOverflow: 'ellipsis',
+                      display: '-webkit-box',
+                      WebkitLineClamp: 4, // max 4 lines
+                      WebkitBoxOrient: 'vertical',
+                    }}
+                    title={tour.summary} // full on hover
+                  >
+                    {tour.summary}
+                  </Typography>
+
+                  {/* Location & Date */}
+                  <Box
+                    sx={{
+                      display: 'flex',
+                      justifyContent: 'space-between',
+                      fontSize: '0.85rem',
+                      color: '#aed581',
+                      mb: 3,
+                    }}
+                  >
+                    <Box sx={{ display: 'flex', alignItems: 'center' }}>
+                      <svg
+                        width="16"
+                        height="16"
+                        fill="none"
+                        stroke="#aed581"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        viewBox="0 0 24 24"
+                        style={{ marginRight: 6 }}
+                      >
+                        <path d="M12 21s-6-4.35-6-10a6 6 0 1112 0c0 5.65-6 10-6 10z" />
+                        <circle cx="12" cy="11" r="2" />
+                      </svg>
+                      {tour.startLocation.description}
+                    </Box>
+
+                    <Box sx={{ display: 'flex', alignItems: 'center' }}>
+                      <svg
+                        width="16"
+                        height="16"
+                        fill="none"
+                        stroke="#aed581"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        viewBox="0 0 24 24"
+                        style={{ marginRight: 6 }}
+                      >
+                        <path d="M8 7V3h8v4" />
+                        <rect width="12" height="14" x="6" y="7" rx="2" ry="2" />
+                      </svg>
+                      {new Date(tour.startDates[0]).toLocaleString('en-US', {
+                        month: 'long',
+                        year: 'numeric',
+                      })}
+                    </Box>
+                  </Box>
+
+                  {/* Price & Button */}
+                  <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                    <Typography sx={{ fontWeight: 'bold', fontSize: '1.2rem', color: '#aed581' }}>
+                      ${tour.price}
+                      <Typography component="span" sx={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.7)', ml: 0.5 }}>
+                        per person
+                      </Typography>
+                    </Typography>
+
+                    <Button
+                      variant="contained"
+                      sx={{
+                        backgroundColor: '#2e7d32',
+                        '&:hover': { backgroundColor: '#1b5e20' },
+                        textTransform: 'none',
+                        fontWeight: 'bold',
+                        px: 3,
+                        py: 1,
+                      }}
+                      onClick={() => navigate(`/tour/${tour.slug}`)}
+                    >
+                      View Details
+                    </Button>
+                  </Box>
+                </Box>
+              </Box>
+            </Grid>
           ))}
-        </div>
-      </div>
-    </main>
+        </Grid>
+      </Box>
+    </Box>
   );
 };
 

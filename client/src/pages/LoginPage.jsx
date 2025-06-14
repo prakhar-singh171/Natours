@@ -3,14 +3,15 @@ import { useNavigate, Link } from 'react-router-dom';
 import axios from 'axios';
 import AuthContext from '../context/AuthContext';
 import { toast } from "react-toastify";
+import { TextField, Button, Typography, Box } from '@mui/material';
 
 const LoginPage = () => {
-  const { setToken, backendUrl } = useContext(AuthContext);
+  const { setToken, backendUrl, fetchUserData } = useContext(AuthContext);
   const navigate = useNavigate();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [isSendingReset, setIsSendingReset] = useState(false);
-  const {fetchUserData}=useContext(AuthContext)
+
   const handleForgotPassword = async () => {
     if (!email) {
       toast.info('Please enter your email address first.');
@@ -18,20 +19,12 @@ const LoginPage = () => {
     }
 
     setIsSendingReset(true);
-
     try {
-      const response = await axios.post(
-        `${backendUrl}/users/forgotPassword`,
-        { email }
-      );
-
-      if (response.data.status === 'success') {
-        toast.success('Password reset link has been sent to your email.');
-      } else {
-        toast.error('Failed to send password reset link.');
-      }
+      const response = await axios.post(`${backendUrl}/users/forgotPassword`, { email });
+      response.data.status === 'success'
+        ? toast.success('Password reset link has been sent to your email.')
+        : toast.error('Failed to send password reset link.');
     } catch (error) {
-      console.error('Forgot password error:', error.response?.data || error.message);
       toast.error(error.response?.data?.message || 'Failed to send password reset link.');
     } finally {
       setIsSendingReset(false);
@@ -40,80 +33,112 @@ const LoginPage = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     try {
-      const response = await axios.post(
-        `${backendUrl}/users/login`,
-        { email, password }
-      );
-
+      const response = await axios.post(`${backendUrl}/users/login`, { email, password });
       if (response.data.status === 'success') {
         setToken(response.data.token);
-        fetchUserData()
+        fetchUserData();
         navigate('/tours');
       } else {
         toast.error('Login failed');
       }
     } catch (error) {
-      console.error('Login error:', error.response?.data || error.message);
       toast.error(error.response?.data?.message || 'Login failed');
     }
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <div className="bg-white p-8 rounded-lg shadow-lg w-96">
-        <h2 className="text-2xl font-bold mb-6">Login</h2>
-        <form onSubmit={handleSubmit} className="space-y-4">
-          <div>
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email address</label>
-            <input
-              id="email"
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-              required
-            />
-          </div>
-          <div>
-            <label htmlFor="password" className="block text-sm font-medium text-gray-700">Password</label>
-            <input
-              id="password"
-              type="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-              required
-            />
-          </div>
-          <button
+    <Box
+      display="flex"
+      alignItems="center"
+      justifyContent="center"
+      minHeight="100vh"
+      sx={{
+        backgroundImage: "url('/bg.jpg')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+      }}
+    >
+      <Box
+        sx={{
+          backdropFilter: 'blur(12px)',
+          backgroundColor: 'rgba(255, 255, 255, 0.1)',
+          padding: 4,
+          borderRadius: 4,
+          width: 400,
+          boxShadow: '0 0 20px rgba(0, 0, 0, 0.3)',
+          color: '#fff',
+        }}
+      >
+        <Typography variant="h5" fontWeight="bold" mb={3}>
+          Login
+        </Typography>
+
+        <form onSubmit={handleSubmit}>
+          <TextField
+            label="Email address"
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            fullWidth
+            margin="normal"
+            required
+            variant="outlined"
+            InputLabelProps={{ style: { color: '#e0f2f1' } }}
+            InputProps={{ style: { color: '#fff' } }}
+          />
+          <TextField
+            label="Password"
+            type="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            fullWidth
+            margin="normal"
+            required
+            variant="outlined"
+            InputLabelProps={{ style: { color: '#e0f2f1' } }}
+            InputProps={{ style: { color: '#fff' } }}
+          />
+          <Button
             type="submit"
-            className="w-full py-2 px-4 bg-green-600 text-white rounded-md shadow hover:bg-green-700"
+            variant="contained"
+            fullWidth
+            sx={{
+              mt: 2,
+              backgroundColor: '#2e7d32',
+              fontWeight: 'bold',
+              '&:hover': {
+                backgroundColor: '#1b5e20',
+              },
+            }}
           >
-            Login
-          </button>
+            LOGIN
+          </Button>
         </form>
-        <div className="mt-4 flex justify-between items-center">
-          <button
-            type="button"
+
+        <Box mt={3} display="flex" justifyContent="space-between" flexWrap="wrap" alignItems="center">
+          <Button
             onClick={handleForgotPassword}
-            className={`text-blue-500 hover:underline ${
-              isSendingReset ? 'cursor-not-allowed opacity-50' : ''
-            }`}
             disabled={isSendingReset}
+            sx={{
+              textTransform: 'none',
+              fontSize: '0.875rem',
+              color: '#a5d6a7',
+              '&:hover': { textDecoration: 'underline' },
+            }}
           >
             {isSendingReset ? 'Sending...' : 'Forgot Password?'}
-          </button>
-          <p className="text-sm text-gray-600">
+          </Button>
+          <Typography variant="body2" sx={{ color: '#c8e6c9', mt: { xs: 1, sm: 0 } }}>
             Don’t have an account?{' '}
-            <Link to="/signup" className="text-blue-500 hover:underline">
+            <Link to="/signup" style={{ color: '#a5d6a7', textDecoration: 'none' }}>
               Sign up here
             </Link>
-          </p>
-        </div>
-      </div>
-    </div>
+          </Typography>
+        </Box>
+      </Box>
+    </Box>
   );
 };
 

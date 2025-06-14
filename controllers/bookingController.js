@@ -59,18 +59,7 @@ exports.verifyPayment = catchAsync(async (req, res, next) => {
       try {
           const user = await User.findOne({ email: session.customer_email });
 
-          // ✅ CHECK IF BOOKING ALREADY EXISTS
-          const existingBooking = await Booking.findOne({
-              tour: session.client_reference_id,
-              user: user._id
-          });
-
-          if (existingBooking) {
-              console.log("⚠️ Booking already exists, skipping duplicate.");
-              return res.status(200).json({ status: "success", data: existingBooking });
-          }
-
-          // ✅ CREATE BOOKING ONLY IF IT DOESN'T EXIST
+      
           const booking = await Booking.create({
               tour: session.client_reference_id,
               user: user._id,

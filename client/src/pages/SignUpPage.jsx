@@ -1,8 +1,9 @@
 import React, { useState, useContext } from 'react';
+import { useNavigate, Link } from 'react-router-dom';
 import axios from 'axios';
 import AuthContext from '../context/AuthContext';
-import { useNavigate,Link } from 'react-router-dom';
 import { toast } from "react-toastify";
+import { TextField, Button, Typography, Box } from '@mui/material';
 
 const SignupPage = () => {
   const { backendUrl } = useContext(AuthContext);
@@ -16,113 +17,145 @@ const SignupPage = () => {
   });
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     if (formData.password !== formData.confirmPassword) {
-toast.error('Passwords do not match')  
-    return;
+      toast.error('Passwords do not match');
+      return;
     }
 
     try {
-      const response = await axios.post(`${backendUrl}/users/signup`, {
+      const res = await axios.post(`${backendUrl}/users/signup`, {
         name: formData.name,
         email: formData.email,
         password: formData.password,
-        passwordConfirm:formData.confirmPassword
+        passwordConfirm: formData.confirmPassword
       });
 
-      if (response.data) {
-        toast.success('Signup successful! Please log in.');
-        navigate('/login'); // Redirect to login page
+      if (res.data.status === 'success') {
+        toast.success('Signup successful. Please login!');
+        navigate('/login');
       }
-    } catch (error) {
-      console.error('Signup error:', error.response?.data || error.message);
-      toast.error(error.response?.data?.message || 'Signup failed.');
+    } catch (err) {
+      toast.error(err.response?.data?.message || 'Signup failed');
     }
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <div className="bg-white p-8 rounded-lg shadow-lg w-96">
-        <h2 className="text-2xl font-bold mb-6">Sign Up</h2>
-      
-        <form onSubmit={handleSubmit} className="space-y-4">
-          <div>
-            <label htmlFor="name" className="block text-sm font-medium text-gray-700">
-              Name
-            </label>
-            <input
-              id="name"
-              name="name"
-              type="text"
-              value={formData.name}
-              onChange={handleChange}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-              required
-            />
-          </div>
-          <div>
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700">
-              Email Address
-            </label>
-            <input
-              id="email"
-              name="email"
-              type="email"
-              value={formData.email}
-              onChange={handleChange}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-              required
-            />
-          </div>
-          <div>
-            <label htmlFor="password" className="block text-sm font-medium text-gray-700">
-              Password
-            </label>
-            <input
-              id="password"
-              name="password"
-              type="password"
-              value={formData.password}
-              onChange={handleChange}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-              required
-            />
-          </div>
-          <div>
-            <label htmlFor="confirmPassword" className="block text-sm font-medium text-gray-700">
-              Confirm Password
-            </label>
-            <input
-              id="confirmPassword"
-              name="confirmPassword"
-              type="password"
-              value={formData.confirmPassword}
-              onChange={handleChange}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-              required
-            />
-          </div>
-          <button
+    <Box
+      display="flex"
+      alignItems="center"
+      justifyContent="center"
+      minHeight="100vh"
+      sx={{
+        backgroundImage: "url('/bg.jpg')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+      }}
+    >
+      <Box
+        sx={{
+          backdropFilter: 'blur(12px)',
+          backgroundColor: 'rgba(255, 255, 255, 0.1)',
+          padding: 4,
+          borderRadius: 4,
+          width: 400,
+          boxShadow: '0 0 20px rgba(0, 0, 0, 0.3)',
+          color: '#fff',
+        }}
+      >
+        <Typography variant="h5" fontWeight="bold" mb={3}>
+          Sign Up
+        </Typography>
+
+        <form onSubmit={handleSubmit}>
+          <TextField
+            label="Full Name"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            fullWidth
+            margin="normal"
+            required
+            variant="outlined"
+            InputLabelProps={{ style: { color: '#e0f2f1' } }}
+            InputProps={{ style: { color: '#fff' } }}
+          />
+
+          <TextField
+            label="Email address"
+            type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            fullWidth
+            margin="normal"
+            required
+            variant="outlined"
+            InputLabelProps={{ style: { color: '#e0f2f1' } }}
+            InputProps={{ style: { color: '#fff' } }}
+          />
+
+          <TextField
+            label="Password"
+            type="password"
+            name="password"
+            value={formData.password}
+            onChange={handleChange}
+            fullWidth
+            margin="normal"
+            required
+            variant="outlined"
+            InputLabelProps={{ style: { color: '#e0f2f1' } }}
+            InputProps={{ style: { color: '#fff' } }}
+          />
+
+          <TextField
+            label="Confirm Password"
+            type="password"
+            name="confirmPassword"
+            value={formData.confirmPassword}
+            onChange={handleChange}
+            fullWidth
+            margin="normal"
+            required
+            variant="outlined"
+            InputLabelProps={{ style: { color: '#e0f2f1' } }}
+            InputProps={{ style: { color: '#fff' } }}
+          />
+
+          <Button
             type="submit"
-            className="w-full py-2 px-4 bg-blue-600 text-white rounded-md shadow hover:bg-blue-700"
+            variant="contained"
+            fullWidth
+            sx={{
+              mt: 2,
+              backgroundColor: '#2e7d32',
+              fontWeight: 'bold',
+              '&:hover': {
+                backgroundColor: '#1b5e20',
+              },
+            }}
           >
-            Sign Up
-          </button>
+            SIGN UP
+          </Button>
         </form>
-        <p className="mt-4 text-sm text-gray-600">
-          Already have an account?{' '}
-          <Link to="/login" className="text-blue-500 hover:underline">
-            Login here
-          </Link>
-        </p>
-      </div>
-    </div>
+
+        <Box mt={3} textAlign="center">
+          <Typography variant="body2" sx={{ color: '#c8e6c9' }}>
+            Already have an account?{' '}
+            <Link to="/login" style={{ color: '#a5d6a7', textDecoration: 'none' }}>
+              Login here
+            </Link>
+          </Typography>
+        </Box>
+      </Box>
+    </Box>
   );
 };
 

@@ -2,17 +2,16 @@ import React, { useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import axios from 'axios';
 import { toast } from "react-toastify";
+import { TextField, Button, Typography, Box } from '@mui/material';
 
 const ResetPasswordPage = () => {
-  const { token } = useParams(); // Get the reset token from the URL
+  const { token } = useParams();
   const navigate = useNavigate();
+  const backendUrl = import.meta.env.VITE_BACKEND_URL;
 
   const [password, setPassword] = useState('');
-
   const [confirmPassword, setConfirmPassword] = useState('');
   const [loading, setLoading] = useState(false);
-
-  const backendUrl = import.meta.env.VITE_BACKEND_URL; // Adjust based on your environment setup
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -23,19 +22,17 @@ const ResetPasswordPage = () => {
     }
 
     setLoading(true);
-
     try {
       const response = await axios.patch(
         `${backendUrl}/users/resetPassword/${token}`,
-        { password,passwordConfirm:confirmPassword },
+        { password, passwordConfirm: confirmPassword },
         { headers: { 'Content-Type': 'application/json' } }
       );
 
       if (response.data.status === 'success') {
         toast.success('Password reset successful! You can now log in.');
-        navigate('/login'); // Redirect to login page after successful reset
+        navigate('/login');
       } else {
-      
         toast.error('Failed to reset password. Please try again.');
       }
     } catch (error) {
@@ -47,46 +44,84 @@ const ResetPasswordPage = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <div className="bg-white p-8 rounded-lg shadow-lg w-96">
-        <h2 className="text-2xl font-bold mb-6">Reset Password</h2>
-        <form onSubmit={handleSubmit} className="space-y-4">
-          <div>
-            <label htmlFor="password" className="block text-sm font-medium text-gray-700">
-              New Password
-            </label>
-            <input
-              id="password"
-              type="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-              required
-            />
-          </div>
-          <div>
-            <label htmlFor="confirmPassword" className="block text-sm font-medium text-gray-700">
-              Confirm New Password
-            </label>
-            <input
-              id="confirmPassword"
-              type="password"
-              value={confirmPassword}
-              onChange={(e) => setConfirmPassword(e.target.value)}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-              required
-            />
-          </div>
-          <button
+    <Box
+      display="flex"
+      alignItems="center"
+      justifyContent="center"
+      minHeight="100vh"
+      sx={{
+        backgroundImage: "url('/bg.jpg')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        px: 2,
+      }}
+    >
+      <Box
+        sx={{
+          backdropFilter: 'blur(14px)',
+          backgroundColor: 'rgba(255, 255, 255, 0.08)',
+          padding: 4,
+          borderRadius: 4,
+          width: { xs: '100%', sm: 400 },
+          maxWidth: '100%',
+          boxShadow: '0 8px 30px rgba(0, 0, 0, 0.35)',
+          color: '#fff',
+        }}
+      >
+        <Typography variant="h5" fontWeight="bold" mb={3} textAlign="center">
+          Reset Password
+        </Typography>
+
+        <form onSubmit={handleSubmit}>
+          <TextField
+            label="New Password"
+            type="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            fullWidth
+            margin="normal"
+            required
+            variant="outlined"
+            autoComplete="new-password"
+            InputLabelProps={{ style: { color: '#b2dfdb' } }}
+            InputProps={{ style: { color: '#fff' } }}
+          />
+
+          <TextField
+            label="Confirm New Password"
+            type="password"
+            value={confirmPassword}
+            onChange={(e) => setConfirmPassword(e.target.value)}
+            fullWidth
+            margin="normal"
+            required
+            variant="outlined"
+            autoComplete="new-password"
+            InputLabelProps={{ style: { color: '#b2dfdb' } }}
+            InputProps={{ style: { color: '#fff' } }}
+          />
+
+          <Button
             type="submit"
-            className={`w-full py-2 px-4 text-white rounded-md shadow ${loading ? 'bg-gray-400' : 'bg-green-600 hover:bg-green-700'}`}
+            variant="contained"
+            fullWidth
             disabled={loading}
+            sx={{
+              mt: 3,
+              backgroundColor: '#2e7d32',
+              fontWeight: 'bold',
+              borderRadius: '8px',
+              '&:hover': {
+                backgroundColor: '#1b5e20',
+              },
+            }}
           >
             {loading ? 'Resetting...' : 'Reset Password'}
-          </button>
+          </Button>
         </form>
-      </div>
-    </div>
+      </Box>
+    </Box>
   );
 };
 

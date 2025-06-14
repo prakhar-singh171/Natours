@@ -15,6 +15,7 @@ import MyAppointments from './pages/MyBookings';
 import MyBookings from './pages/MyBookings';
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import MyReviews from './pages/MyReviews';
 const App = () => {
   return (
     <AuthProvider>
@@ -47,6 +48,11 @@ const App = () => {
               <Route path="*" element={<Navigate to="/login" replace />} />
               <Route path="/my-bookings" element={<MyBookings />} />
 
+                <Route path="/my-reviews" element={
+                    <ProtectedRoute>
+                      <MyReviews />
+                    </ProtectedRoute>
+                  } />
             </Routes>
             <ToastContainer position="top-right" autoClose={3000} />
 

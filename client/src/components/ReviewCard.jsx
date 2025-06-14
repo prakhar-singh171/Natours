@@ -1,38 +1,41 @@
-import React from 'react';
+import React from "react";
 
-const ReviewCard = ({ review }) => {
+const ReviewCard = ({ review, onDelete, onEdit, editable = false }) => {
   return (
-    <div className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center">
-      {/* Avatar */}
-      <div className="mb-4">
+    <div className="bg-white/90 backdrop-blur-md border rounded-xl shadow-xl overflow-hidden transition-transform hover:scale-[1.02]">
+      {review.tour?.imageCover && (
         <img
-          className="w-16 h-16 rounded-full object-cover"
-          src={`/img/users/${review.user.photo}`}
-          alt={review.user.name}
+          src={`/img/tours/${review.tour.imageCover}`}
+          alt={review.tour.name}
+          className="w-full h-48 object-cover"
         />
-      </div>
+      )}
+      <div className="p-4 space-y-2">
+        <h2 className="text-lg font-semibold text-gray-800">{review.tour?.name}</h2>
+        <p className="text-yellow-500 text-sm">
+          {"★".repeat(review.rating)}{"☆".repeat(5 - review.rating)}
+        </p>
+        <p className="text-gray-700">{review.review}</p>
+        <p className="text-gray-500 text-sm">
+          {new Date(review.createdAt).toLocaleDateString()}
+        </p>
 
-      {/* User Name */}
-      <h6 className="text-lg font-bold text-gray-800 mb-2">{review.user.name}</h6>
-
-      {/* Review Text */}
-      <p className="text-gray-600 italic text-center mb-4">{review.review}</p>
-
-      {/* Star Rating */}
-      <div className="flex space-x-1">
-        {[1, 2, 3, 4, 5].map((star) => (
-          <svg
-            key={star}
-            className={`w-5 h-5 ${
-              review.rating >= star ? 'text-yellow-500' : 'text-gray-300'
-            }`}
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-          >
-            <path d="M9.049 2.927a1 1 0 011.902 0l1.716 4.954 5.181.018a1 1 0 01.616 1.779l-3.993 3.067 1.491 5.062a1 1 0 01-1.516 1.089L10 14.94l-4.446 3.956a1 1 0 01-1.516-1.089l1.491-5.062-3.993-3.067a1 1 0 01.616-1.779l5.181-.018L9.049 2.927z" />
-          </svg>
-        ))}
+        {editable && (
+          <div className="flex gap-2 mt-2">
+            <button
+              onClick={() => onEdit(review)}
+              className="px-4 py-1 bg-blue-500 text-white rounded"
+            >
+              Edit
+            </button>
+            <button
+              onClick={() => onDelete(review._id)}
+              className="px-4 py-1 bg-red-500 text-white rounded"
+            >
+              Delete
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );

@@ -15,6 +15,7 @@ const userRouter = require('./routes/userRoutes');
 const reviewRouter = require('./routes/reviewRoutes');
 const bookingRouter = require('./routes/bookingRoutes');
 const viewRouter = require('./routes/viewRoutes');
+const cors=require('cors')
 
 const app = express();
 app.use((req, res, next) => {
@@ -30,11 +31,16 @@ app.use((req, res, next) => {
   next();
 });
 
-const cors=require('cors')
-app.use(cors({
-  origin: 'http://localhost:5173', // Allow Vite development server
-  methods: ['GET', 'POST', 'PUT', 'DELETE','PATCH'], // Specify allowed methods
-}));
+const corsOptions = {
+    origin: [process.env.FRONTEND_URL],
+    credentials: true,
+    allowedHeaders: ['Content-Type', 'Authorization'], // ✅ add this
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+};
+
+
+// Apply middlewares
+app.use(cors(corsOptions));``
 // app.set('view engine', 'pug');
 // app.set('views', path.join(__dirname, 'views'));
 app.use((req, res, next) => {
@@ -99,7 +105,7 @@ if (process.env.NODE_ENV === 'development') {
 
 // Limit requests from same API
 const limiter = rateLimit({
-  max: 100,
+  max: 1000,
   windowMs: 60 * 60 * 1000,
   message: 'Too many requests from this IP, please try again in an hour!',
 });

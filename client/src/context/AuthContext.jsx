@@ -9,6 +9,9 @@ export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const backendUrl = import.meta.env.VITE_BACKEND_URL;
 
+  // Set axios defaults to always send credentials (cookies, etc)
+  axios.defaults.withCredentials = true;
+
   // Fetch user details when token changes
   useEffect(() => {
     if (token) {
@@ -37,7 +40,18 @@ export const AuthProvider = ({ children }) => {
   };
 
   // Function to log out
-  const logout = () => {
+  const logout = async () => {
+    try {
+      await axios.get(`${backendUrl}/users/logout`, {
+        headers: { Authorization: `Bearer ${token}` },
+      });
+      toast.success("Logged out successfully");
+    } catch (error) {
+      console.error("Logout failed:", error);
+      toast.error("Logout failed");
+    }
+
+    // Always clear client-side data
     setToken(null);
     setUser(null);
     localStorage.removeItem("token");
@@ -45,7 +59,7 @@ export const AuthProvider = ({ children }) => {
   };
 
   return (
-    <AuthContext.Provider value={{ token, setToken, user, setUser, logout, backendUrl,fetchUserData }}>
+    <AuthContext.Provider value={{ token, setToken, user, setUser, logout, backendUrl, fetchUserData }}>
       {children}
     </AuthContext.Provider>
   );

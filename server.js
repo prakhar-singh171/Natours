@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
-
+const connectCloudinary=require('./config/cloudinary.js')
 process.on('uncaughtException', err => {
   console.log('UNCAUGHT EXCEPTION! 💥 Shutting down...');
   console.log(err.name, err.message);
@@ -22,6 +22,8 @@ mongoose
     
   })
   .then(() => console.log('DB connection successful!'));
+connectCloudinary();
+
 
 const port = process.env.PORT || 3000;
 const server = app.listen(port, () => {

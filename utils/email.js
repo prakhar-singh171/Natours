@@ -1,28 +1,16 @@
 const nodemailer = require('nodemailer');
-const pug = require('pug');
-const { convert } = require('html-to-text'); // Use the correct function from html-to-text
+const { convert } = require('html-to-text');
 
-module.exports = class Email {
+class Email {
   constructor(user, url) {
     this.to = user.email;
     this.firstName = user.name.split(' ')[0];
     this.url = url;
-    this.from = `Jonas Schmedtmann <${process.env.EMAIL_FROM}>`;
+    this.from = `${process.env.EMAIL_FROM_NAME} <${process.env.EMAIL_FROM}>`;
   }
 
+  // Create transporter with Brevo or other SMTP
   newTransport() {
-    if (process.env.NODE_ENV === 'development') {
-      // SendinBlue configuration
-      return nodemailer.createTransport({
-        service: 'SendinBlue',
-        auth: {
-          user: '8463af001@smtp-brevo.com',
-          pass: 'py4aCshtIdkAHR37'
-        }
-      });
-    }
-
-    // Production configuration
     return nodemailer.createTransport({
       host: process.env.EMAIL_HOST,
       port: process.env.EMAIL_PORT,
@@ -33,36 +21,50 @@ module.exports = class Email {
     });
   }
 
-  // Send the actual email
-  async send(template, subject) {
-    // 1) Render HTML based on a pug template
-    const html = pug.renderFile(`${__dirname}/../views/email/${template}.pug`, {
-      firstName: this.firstName,
-      url: this.url,
-      subject
-    });
-
-    // 2) Define email options
+  async send(htmlContent, subject) {
     const mailOptions = {
       from: this.from,
       to: this.to,
       subject,
-      html,
-      text: convert(html) // Use `convert` for plain text conversion
+      html: htmlContent,           // Direct HTML content
+      text: convert(htmlContent)   // Auto-generate text version
     };
 
-    // 3) Create a transport and send email
     await this.newTransport().sendMail(mailOptions);
   }
 
   async sendWelcome() {
-    await this.send('welcome', 'Welcome to the Natours Family!');
+    const html = `
+      <div style="font-family: Arial, sans-serif; font-size: 16px; color: #333;">
+        <h1>Welcome to NatureQuest, ${this.firstName}!</h1>
+        <p>We’re excited to have you on board.</p>
+        <p>Click below to get started:</p>
+        <a href="${this.url}" 
+           style="background-color: #4CAF50; color: white; padding: 10px 20px; 
+                  text-decoration: none; border-radius: 5px;">
+          Get Started
+        </a>
+      </div>
+    `;
+    await this.send(html, 'Welcome to NatureQuest!');
   }
 
   async sendPasswordReset() {
-    await this.send(
-      'passwordReset',
-      'Your password reset token (valid for only 10 minutes)'
-    );
+    const html = `
+      <div style="font-family: Arial, sans-serif; font-size: 16px; color: #333;">
+        <h1>Password Reset Request</h1>
+        <p>Hello ${this.firstName},</p>
+        <p>You requested a password reset. Click the link below to reset your password:</p>
+        <a href="${this.url}" 
+           style="background-color: #FF5733; color: white; padding: 10px 20px; 
+                  text-decoration: none; border-radius: 5px;">
+          Reset Password
+        </a>
+        <p>This link is valid for 10 minutes.</p>
+      </div>
+    `;
+    await this.send(html, 'Your password reset token (valid for 10 minutes)');
   }
-};
+}
+
+module.exports = Email;

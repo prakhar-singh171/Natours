@@ -55,5 +55,5 @@ public/build/
 .parcel-cache/
 .cache/
 public/js/bundled/
-views/
+views
 

@@ -86,6 +86,7 @@ const MyReviews = () => {
               review={review}
               onDelete={handleDelete}
               onEdit={handleEdit}
+              editable={true}
             />
           ))}
         </div>
